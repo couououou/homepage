@@ -29,6 +29,8 @@
     <!-- <link href="css/animation.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" />
 
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ogl@0.0.32/dist/ogl.umd.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="javascript/javascript.js" defer></script>
 
@@ -98,26 +100,48 @@
         </nav>
     </header>
     <section class="home" id="home">
-        <div class="mainContentWrap wrap">
-            <div class="mainContent">
-                <div class="mainText">
-                    <h1 class="h1title">
-                        KIM SEONG BAE<br>
-                        PORTFOLIO
-                    </h1>
-                    <p>
-                        작은 변화가 모여 큰 가치를 만든다.<br>
-                        끊임없이 배우고 도전하며 성장하는 김성배입니다.<br>
-                        방문해주셔서 감사합니다.
-                    </p>
-                </div>
+        <div class="particles-wrapper">
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="mainContent">
+            <div class="mainText">
+                <h1 class="h1title">
+                    KIM SEONG BAE<br>
+                    PORTFOLIO
+                </h1>
+                <h5>
+                    작은 변화가 모여 큰 가치를 만든다.<br>
+                    끊임없이 배우고 도전하며 성장하는 김성배입니다.<br>
+                    방문해주셔서 감사합니다.
+                </h5>
             </div>
-        </div> 
+        </div>
+        <script src="javascript/main.js"></script> 
     </section>
     <section class="about floatclear sectionContent" id="about">
         <div class="aboutWrap wrap2">
-            <div class="title aboutTitle eng">
-                <h2><span>A</span>bout Me</h2>
+            <div class="title contentTitle aboutTitle eng">
+                <h2>
+                    <div class="titleBrace">
+                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                            fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <span>About Me</span>
+                    <div class="titleBrace titleBraceReverse">
+                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                            fill="currentColor"/>
+                        </svg>
+                    </div>
+                </h2>
             </div>
             <div class="aboutBoxs">
                 <div class="aboutBox infoBox">
@@ -158,11 +182,11 @@
                     <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Certificate</h5>
                     <div class="aboutInfo">
                         <ul>
-                            <li>- 웹디자인기능사</li>
-                            <li>- GTQ그래픽기술자격 1급</li>
-                            <li>- 전자기기기능사</li>
-                            <li>- 정보처리기능사</li>
-                            <li>- ITQ(엑셀, 한글, 파워포인트)</li>
+                            <li>웹디자인기능사</li>
+                            <li>GTQ그래픽기술자격 1급</li>
+                            <li>전자기기기능사</li>
+                            <li>정보처리기능사</li>
+                            <li>ITQ(엑셀, 한글, 파워포인트)</li>
                         </ul>
                     </div>
                 </div>
@@ -177,7 +201,7 @@
                             <li>-&nbsp;&nbsp;더튼튼플란트치과의원 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
                             <li>-&nbsp;&nbsp;시그널케어 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
                             <li>-&nbsp;&nbsp;메이저치과 홈페이지 제작</li>
-                            <li>-&nbsp;&nbsp;빛·나·사 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
+                            <li>-&nbsp;&nbsp;빛을 나누는 사람들 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
                             <li>-&nbsp;&nbsp;울진 대게축제 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
                             <li>-&nbsp;&nbsp;정재수법률사무소 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
                             <li>
@@ -218,414 +242,97 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="aboutBox skillBox">
-                    <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Skills</h5>
-                    <div class="aboutInfo">
-                        <ul class="skillContent">
-                            <li>
-                                <div class="skillTitle">
-                                    <p>HTML</p>
-                                </div>
-                                <div class="skillBarBox">
-                                    <div class="skillBar" data-percent="90"></div>
-                                </div>
-                                <div class="percent">
-                                    <h6><span class="blind">skill-percent</span>0%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="skillTitle">
-                                    <p>CSS</p>
-                                </div>
-                                <div class="skillBarBox">
-                                    <div class="skillBar" data-percent="85"></div>
-                                </div>
-                                <div class="percent">
-                                    <h6><span class="blind">skill-percent</span>0%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="skillTitle">
-                                    <p>JavaScript</p>
-                                </div>
-                                <div class="skillBarBox">
-                                    <div class="skillBar" data-percent="70"></div>
-                                </div>
-                                <div class="percent">
-                                    <h6><span class="blind">skill-percent</span>0%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="skillTitle">
-                                    <p>jQuery</p>
-                                </div>
-                                <div class="skillBarBox">
-                                    <div class="skillBar" data-percent="75"></div>
-                                </div>
-                                <div class="percent">
-                                    <h6><span class="blind">skill-percent</span>0%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="skillTitle">
-                                    <p>Photoshop</p>
-                                </div>
-                                <div class="skillBarBox">
-                                    <div class="skillBar" data-percent="65"></div>
-                                </div>
-                                <div class="percent">
-                                    <h6><span class="blind">skill-percent</span>0%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="skillTitle">
-                                    <p>Illustrator</p>
-                                </div>
-                                <div class="skillBarBox">
-                                    <div class="skillBar" data-percent="50"></div>
-                                </div>
-                                <div class="percent">
-                                    <h6><span class="blind">skill-percent</span>0%</h6>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
     <section class="project floatclear sectionContent" id="project">
         <div class="projectWrap wrap2">
             <div class="title projectTitle eng">
-                <h2>Project</h2>
+                <h2>
+                    <div class="titleBrace">
+                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                            fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <span>Project</span>
+                    <div class="titleBrace titleBraceReverse">
+                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                            fill="currentColor"/>
+                        </svg>
+                    </div>
+                </h2>
             </div>
             <div class="projectBoxs">
                 <div class="projectBox infoBox">
                     <ul>
                         <li>
                             <a href="#">
-                                <div class="img_box">
-                                    <img src="/img/portfolio/web/hwasung/hwasung_main.png" alt="hwasung">
-                                </div>
-                                <div class="text_box">
-                                    <h4>제목</h4>
-                                    <p>텍스트</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="img_box">
-                                    <img src="/img/portfolio/web/law/law_main.png" alt="law">
-                                </div>
-                                <div class="text_box">
-                                    <h4>제목</h4>
-                                    <p>텍스트</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="img_box">
-                                    <img src="/img/portfolio/web/major/major_main.png" alt="major">
-                                </div>
-                                <div class="text_box">
-                                    <h4>제목</h4>
-                                    <p>텍스트</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="img_box">
+                                <div class="imgBox">
                                     <img src="/img/portfolio/web/signal/signal_main.png" alt="signal">
                                 </div>
-                                <div class="text_box">
-                                    <h4>제목</h4>
-                                    <p>텍스트</p>
+                                <div class="textBox">
+                                    <p>개인 프로젝트</p>
+                                    <h5>오늘의 날씨</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/project/hwasung.html">
+                                <div class="imgBox">
+                                    <img src="/img/portfolio/web/hwasung/hwasung_main.png" alt="hwasung">
+                                </div>
+                                <div class="textBox">
+                                    <p>홈페이지 리뉴얼</p>
+                                    <h5>화성세탁기계</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/project/law.html">
+                                <div class="imgBox">
+                                    <img src="/img/portfolio/web/law/law_main.png" alt="law">
+                                </div>
+                                <div class="textBox">
+                                    <p>신규 제작</p>
+                                    <h5>정재수법률사무소</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/project/major.html">
+                                <div class="imgBox">
+                                    <img src="/img/portfolio/web/major/major_main.png" alt="major">
+                                </div>
+                                <div class="textBox">
+                                    <p>신규 제작</p>
+                                    <h5>메이저치과</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/project/signal.html">
+                                <div class="imgBox">
+                                    <img src="/img/portfolio/web/signal/signal_main.png" alt="signal">
+                                </div>
+                                <div class="textBox">
+                                    <p>홈페이지 리뉴얼</p>
+                                    <h5>시그널케어</h5>
                                 </div>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
+        </div>
     </section>
-    <!-- <section class="web clearfloat sectionContent" id="web">
-        <div class="webWrap wrap">
-            <div class="title webTitle">
-                <h2>Web Publishing</h2>
-            </div>
-            <div class="webBoxs">
-                <div class="webBox">
-                    <img src="img/web6.png" alt="web1">
-                    <h3 class="eng">오늘의 날씨</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web_info2.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                        <a href="http://abc123456.woobi.co.kr/weather2/weather2.html" class="linkBtn" target="_blank">
-                            홈페이지로 이동
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webBox">
-                    <img src="img/web5.png" alt="web1">
-                    <h3 class="eng">MAMAMOO</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web_info2.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                        <a href="http://abc123456.woobi.co.kr/mamamoo/mamamoo.html" class="linkBtn" target="_blank">
-                            홈페이지로 이동
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webBox">
-                    <img src="img/web4.png" alt="web5">
-                    <h3 class="eng">오늘어때</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web_info5.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                        <a href="http://abc123456.woobi.co.kr/weather/weather.html" class="linkBtn" target="_blank">
-                            홈페이지로 이동
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webBox">
-                    <img src="img/web3.png" alt="web4">
-                    <h3 class="eng">Fila</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web_info1.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                        <a href="http://abc123456.woobi.co.kr/fila/fila.html" class="linkBtn" target="_blank">
-                            홈페이지로 이동
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webBox">
-                    <img src="img/web2.png" alt="web2">
-                    <h3 class="eng">Cadillac</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web_info3.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                        <a href="http://abc123456.woobi.co.kr/cadillac/cadillac.html" class="linkBtn" target="_blank">
-                            홈페이지로 이동
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webBox">
-                    <img src="img/web1.png" alt="web3">
-                    <h3>전주문화관광</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web_info4.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                        <a href="http://abc123456.woobi.co.kr/jeonju/jeonju.html" class="linkBtn" target="_blank">
-                            홈페이지로 이동
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="webDesign clearfloat sectionContent" id="webDesign">
-        <div class="webDesignWrap wrap">
-            <div class="title webDesignTitle">
-                <h2>Web Design</h2>
-            </div>
-            <div class="webDesignBoxs">
-                <div class="webDesignBox">
-                    <img src="img/portfolio/web_design/design_1.jpg" alt="webDesign">
-                    <h3>충주박물관</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web1.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webDesignBox">
-                    <img src="img/portfolio/web_design/design_2.jpg" alt="webDesign">
-                    <h3>금성침대</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web2.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="webDesignBox">
-                    <img src="img/portfolio/web_design/design_3.jpg" alt="webDesign">
-                    <h3>할리스 커피</h3>
-                    <div class="webLinks">
-                        <a href="http://abc123456.woobi.co.kr/web/web3.html" class="linkBtn" target="_blank">
-                            자세히 보기
-                            <img src="img/icon/arrow.png">
-                            <span class="linkLine"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="otherDesign clearfloat sectionContent" id="otherDesign">
-        <div class="otherDesignWrap wrap">
-            <div class="title otherDesignTitle">
-                <h2>Other Design</h2>
-            </div>
-            <div class="otherDesignBoxs">
-                <div class="otherDesignList">
-                    <ul>
-                        <li class="otherBtn otherAll active">전체 보기</li>
-                        <li class="otherBtn otherBanner">배너</li>
-                        <li class="otherBtn otherPoster">포스터</li>
-                        <li class="otherBtn otherCard">카드뉴스</li>
-                    </ul>
-                </div>
-                <div class="otherDesignBox otherDesignBox1 otherDesignBox1_1">
-                    <div class="banner1">
-                        <h6>탄소중립</h6>
-                        <span class="blind">banner1-1</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox1 otherDesignBox1_2">
-                    <div class="banner1">
-                        <h6>짬뽕지존</h6>
-                        <span class="blind">banner1-2</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox1 otherDesignBox1_3">
-                    <div class="banner1">
-                        <h6>더페이스샵</h6>
-                        <span class="blind">banner1-3</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox2 otherDesignBox2_1">
-                    <div class="banner2">
-                        <h6>센트럴 안과</h6>
-                        <span class="blind">banner2-1</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox2 otherDesignBox2_2">
-                    <div class="banner2">
-                        <h6>프랭크 버거</h6>
-                        <span class="blind">banner2-2</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox3 otherDesignBox3_1">
-                    <div class="poster">
-                        <h6>달구벌 관등놀이</h6>
-                        <span class="blind">poster1</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox3 otherDesignBox3_2">
-                    <div class="poster">
-                        <h6>온열질환 예방</h6>
-                        <span class="blind">poster2</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox3 otherDesignBox3_3">
-                    <div class="poster">
-                        <h6>펩시 제로</h6>
-                        <span class="blind">poster3</span>
-                    </div>
-                </div>
-                <div class="otherDesignBox otherDesignBox4">
-                    <div class="card">
-                        <h6>교차로 카드 뉴스</h6>
-                        <span class="blind">page1</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="otherDesignInfo clearfloat">
-        <div class="otherDesignInfoWrap wrap">
-            <div class="otherDesignInfoBox">
-                <div class="otherDesignTop">
-                    <h5>탄소중립</h5>
-                    <div class="infoCloseBtn">
-                        <i class="fal fa-times"></i>
-                    </div>
-                </div>
-                <div class="otherDesignBottom">
-                    <div class="otherDesignImgBoxs">
-                        <span class="blind">디자인 이미지</span>
-                        <div class="otherDesignImgBox1">
-                            <img src="img/portfolio/other_design/banner1-1.jpg" alt="otherDesign" />
-                        </div>
-                        <div class="otherDesignImgBox2">
-                            <ul class="cardBox">
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page1.jpg" alt="cardnews" />
-                                </li>
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page2.jpg" alt="cardnews" />
-                                </li>
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page3.jpg" alt="cardnews" />
-                                </li>
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page4.jpg" alt="cardnews" />
-                                </li>
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page5.jpg" alt="cardnews" />
-                                </li>
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page6.jpg" alt="cardnews" />
-                                </li>
-                                <li>
-                                    <img src="img/portfolio/other_design/cardnews/page7.jpg" alt="cardnews" />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cardBtn">
-                        <div class="otherLeftBtn btn">
-                            <i class="fas fa-chevron-left"></i>
-                        </div>
-                        <div class="pageNum">
-                            <span class="pageNow">1</span>
-                            <span>/</span>
-                            <span class="pageEnd">7</span>
-                        </div>
-                        <div class="otherRightBtn btn">
-                            <i class="fas fa-chevron-right"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <!-- <footer class="footer clearfloat sectionContent" id="footer">
         <div class="footerContentWrap wrap">
             <div class="footerContent">
