@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/project.css" rel="stylesheet">
+    <!-- <link href="/css/animation.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- masonry -->
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <!-- smooth-scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar@8.8.4/dist/smooth-scrollbar.js"></script>
+
+    <script src="/javascript/javascript.js" defer></script>
+    <script src="/javascript/project.js" defer></script>
+
+    <title>오늘날씨 - 김성배 포트폴리오</title>
+</head>
+<body>
+    <div class="project_wrap weather" id="scroll">
+        <section class="project_visual_wrap ">
+            <div class="project_visual">
+                <div class="project_visual_content wrap02">
+                    <div class="project_info">
+                        <div class="project_info_content">
+                            <div class="project_info_text_wrap project_info_pc">
+                                <div class="project_info_title project_info_text">
+                                    <h2>
+                                        <span>오늘의 날씨</span>
+                                        <a href="/weather/weather.html">
+                                            <svg class="custom-icon" viewBox="0 0 128 128" width="24" height="24">
+                                                <path d="M70.6 115.4c-.9-.8-1.6-2.5-1.6-3.7 0-4.8 1.1-5.2 15.6-5.7l13.7-.5-18.3-18.8c-18.7-19.2-20.2-21.4-17-25.2 3-3.6 5.5-1.9 24.8 17.7l19 19.2-.6-13.6c-.4-12.8-.4-13.6 1.7-15.7 2.6-2.6 4.5-2.7 7.1-.1 1.9 1.9 2 3.3 2 23.8 0 15.6-.3 22.1-1.2 23-1 1-7.4 1.2-22.4 1.2-18 0-21.5-.2-22.8-1.6zM12.7 113.2c-1.5-1.7-1.7-6.7-1.7-50.8 0-36.8.3-49.3 1.2-50.2 1.7-1.7 101.9-1.7 103.6 0 .8.8 1.2 6.1 1.2 17.4 0 13.4-.3 16.5-1.6 17.8-1.8 1.9-3.8 2-6.5.6-1.7-1-1.9-2.2-1.9-13.5v-12.5h-43-43v41 41h13.5c13 0 13.5.1 15 2.4 1.8 2.7.7 6.9-2 8-.9.3-8.8.6-17.4.6-14 0-16-.2-17.4-1.8z" />
+                                            </svg>
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="project_info_text">
+                                    <h5>
+                                        데이터는 정교하게, 일상은 자유롭게
+                                    </h5>
+                                    <p>
+                                        오늘의 날씨는 OpenWeather에서 제공하는 JSON 형식의 데이터를 활용하여 금일 기상 상태부터 주간 예보, 습도, 강수량 등의 실시간 데이터를 인터페이스로 구현했습니다.
+                                        텍스트 자동완성 기능을 구현하여 사용자 검색의 편의성을 높이고, 해당 지역의 기상 정보를 빠르게 탐색할 수 있도록 제작했습니다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project_visual_img">
+                                <img src="/img/portfolio/web/weather/weather_main01.png" alt="main_visual">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project_info wrap project_info_mobile">
+            <div class="project_info_title project_info_text fade">
+                <h2>
+                    <span>오늘의 날씨</span>
+                    <a href="/weather/weather.html">
+                        <svg class="custom-icon" viewBox="0 0 128 128" width="24" height="24">
+                            <path d="M70.6 115.4c-.9-.8-1.6-2.5-1.6-3.7 0-4.8 1.1-5.2 15.6-5.7l13.7-.5-18.3-18.8c-18.7-19.2-20.2-21.4-17-25.2 3-3.6 5.5-1.9 24.8 17.7l19 19.2-.6-13.6c-.4-12.8-.4-13.6 1.7-15.7 2.6-2.6 4.5-2.7 7.1-.1 1.9 1.9 2 3.3 2 23.8 0 15.6-.3 22.1-1.2 23-1 1-7.4 1.2-22.4 1.2-18 0-21.5-.2-22.8-1.6zM12.7 113.2c-1.5-1.7-1.7-6.7-1.7-50.8 0-36.8.3-49.3 1.2-50.2 1.7-1.7 101.9-1.7 103.6 0 .8.8 1.2 6.1 1.2 17.4 0 13.4-.3 16.5-1.6 17.8-1.8 1.9-3.8 2-6.5.6-1.7-1-1.9-2.2-1.9-13.5v-12.5h-43-43v41 41h13.5c13 0 13.5.1 15 2.4 1.8 2.7.7 6.9-2 8-.9.3-8.8.6-17.4.6-14 0-16-.2-17.4-1.8z" />
+                        </svg>
+                    </a>
+                </h2>
+            </div>
+            <div class="project_info_text_wrap fade">
+                <div class="project_info_left project_info_text">
+                    <h5>
+                        데이터는 정교하게, 일상은 자유롭게
+                    </h5>
+                    <p>
+                        오늘의 날씨는 OpenWeather에서 제공하는 JSON 형식의 데이터를 활용하여 금일 기상 상태부터 주간 예보, 습도, 강수량 등의 실시간 데이터를 인터페이스로 구현했습니다.
+                        텍스트 자동완성 기능을 구현하여 사용자 검색의 편의성을 높이고, 해당 지역의 기상 정보를 빠르게 탐색할 수 있도록 제작했습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="project_detail_wrap wrap">
+            <div class="project_detail">
+                <div class="detail_box_contain detail_box_error fade">
+                    <div class="detail_box ">
+                        <div class="img_box ratio_1by1">
+                            <img src="/img/portfolio/web/weather/error.png" alt="NotFound">
+                        </div>
+                        <div class="text_box">
+                            <h4>404 Not Found</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="detail_box_contain detail_box_search">
+                    <div class="detail_box ">
+                        <div class="img_box">
+                            <img src="/img/portfolio/web/weather/search02.png" alt="search">
+                        </div>
+                        <div class="text_box">
+                            <h6>검색창</h6>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="detail_box_contain detail_box_sun fade">
+                    <div class="detail_box">
+                        <div class="img_box ratio_1by1">
+                            <img src="/img/portfolio/web/weather/sunriseset.png" alt="sunriseset">
+                        </div>
+                        <div class="text_box">
+                            <h4>일출·일몰 설정</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail_box_contain detail_box_color fade">
+                    <div class="detail_box ">
+                        <div class="img_box ratio_16by9">
+                            <h6>#FFE02F</h6>
+                            <h6>#0098FA</h6>
+                        </div>
+                        <div class="text_box">
+                            <h4>Design Color</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail_box_contain detail_box_font fade">
+                    <div class="detail_box ">
+                        <div class="img_box ratio_16by9">
+                            <img src="/img/portfolio/web/weather/font.png" alt="font">
+                        </div>
+                        <div class="text_box">
+                            <h4>Design Font</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project_feature_wrap">
+            <div class="project_feature wrap fade">
+                <div class="feature_box">
+                    <div class="img_box">
+                        <img src="/img/portfolio/web/weather/openweather_logo.png" alt="openweather_logo">
+                    </div>
+                    <div class="text_box">
+                        <h5>실시간 데이터 수집</h5>
+                        <p>OpenWeather API를 통한 실시간 데이터 동기화로 최신 기상정보를 유지하며, 미세먼지·습도·풍속 등 다양한 환경 데이터를 시각화했습니다.</p>
+                    </div>
+                </div>
+                <div class="feature_box">
+                    <div class="img_box search">
+                        <img src="/img/portfolio/web/weather/search.png" alt="search">
+                    </div>
+                    <div class="text_box">
+                        <h5>간편한 위치검색</h5>
+                        <p>사용자가 요청하는 지역의 기상정보를 쉽고, 빠르게 확인할 수 있도록 검색 기능을 구현했습니다.</p>
+                    </div>
+                </div>
+                <div class="feature_box">
+                    <div class="img_box">
+                        <img src="/img/portfolio/web/weather/icon01.png" alt="icon">
+                        <img src="/img/portfolio/web/weather/icon02.png" alt="icon">
+                    </div>
+                    <div class="text_box">
+                        <h5>직관적인 아이콘</h5>
+                        <p>기상정보를 아이콘으로 확인할 수 있도록 시각화하여, 사용자가 직관적으로 파악할 수 있도록 했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project_preview_pc_wrap project_preview_wrap" style="--bg_color:#E6F0FF;">
+            <div class="project_preview wrap">
+                <div class="img_item">
+                    <div class="project_preview_content fade">
+                        <div class="text_box">
+                            <h5>메인화면</h5>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/portfolio/web/weather/weather_01.png" alt="weather">
+                        </div>
+                    </div>
+                </div>
+                <div class="img_item">
+                    <div class="project_preview_content fade">
+                        <div class="text_box">
+                            <h5>검색 목록 페이지</h5>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/portfolio/web/weather/weather_02.png" alt="weather">
+                        </div>
+                    </div>
+                </div>
+                <div class="img_item">
+                    <div class="project_preview_content fade">
+                        <div class="text_box">
+                            <h5>검색 결과 페이지</h5>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/portfolio/web/weather/weather_03.png" alt="weather">
+                        </div>
+                    </div>
+                </div>
+                <div class="img_item">
+                    <div class="project_preview_content fade">
+                        <div class="text_box">
+                            <h5>Not Found 페이지</h5>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/portfolio/web/weather/weather_04.png" alt="weather">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>오늘의 날씨</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://kit.fontawesome.com/18e60f3bd0.js" crossorigin="anonymous"></script>
+        <script src="javascript/javascript.js" defer></script>
+    </head>
+    <body>
+        <section class="weatherWrap">
+            <div class="weatherBox">
+                <div class="weather">
+                    <div class="weatherHeader">
+                        <div class="searchBoxWrap">
+                            <label class="fa-solid fa-location-dot fa-2xs posIcon" for="searchBox"></label>
+                            <input type="text" id="searchBox" placeholder="지역을 입력해주세요.">
+                            <button class="fa-solid fa-xmark xmarkIcon"></button>
+                            <button class="fa-solid fa-magnifying-glass fa-2xs searchIcon"></button>
+                        </div>
+                    </div>
+                    <div class="autoComplete">
+                        <span class="blind">자동완성리스트</span>
+                    </div>
+                    <div class="weatherContent">
+                        <div class="weatherImg">
+                            <img src="img/weather/11am.png" alt="img">
+                        </div>
+                        <div class="temperature">
+                            <P class="searchPos">대구광역시</P>
+                            <p class="weatherInfo"><span class="nowTemp"></span>/<span class="nowWeather"></span></p>
+                        </div>
+                        <div class="weatherOtherInfoWrap">
+                            <div class="weatherOtherInfoBoxs">
+                                <div class="weatherOtherInfo1 weatherOtherInfo">
+                                    <p class="weatherOtherInfoTitle">습도</p>
+                                    <p class="weatherOtherInfoText"><span class="infoData infoData_1"></span>%</p>
+                                </div>
+                                <div class="weatherOtherInfo1 weatherOtherInfo">
+                                    <p class="weatherOtherInfoTitle">체감 온도</p>
+                                    <p class="weatherOtherInfoText"><span class="infoData infoData_2"></span>°</p>
+                                </div>
+                                <div class="weatherOtherInfo1 weatherOtherInfo">
+                                    <p class="weatherOtherInfoTitle">풍향</p>
+                                    <p class="weatherOtherInfoText"><span class="infoData infoData_3"></span>풍</p>
+                                </div>
+                                <div class="weatherOtherInfo1 weatherOtherInfo">
+                                    <p class="weatherOtherInfoTitle">풍속</p>
+                                    <p class="weatherOtherInfoText"><span class="infoData infoData_4"></span>m/s</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="finedustWrap">
+                            <div class="leftDust finedustBox">
+                                <div class="dustIconBox">
+                                    <img src="img/icon/finedust_verybad.png" alt="icon">
+                                </div>
+                                <div class="dustTextBox">
+                                    <p class="dustTitle">미세먼지</p>
+                                    <p class="fineDust"><span class="dustText"></span><span class="dustNum"></span></p>
+                                </div>
+                            </div>
+                            <div class="rightDust finedustBox">
+                                <div class="dustIconBox">
+                                    <img src="img/icon/finedust_bad.png" alt="icon">
+                                </div>
+                                <div class="dustTextBox">
+                                    <p class="dustTitle">초미세먼지</p>
+                                    <p class="ultraFineDust"><span class="dustText"></span><span class="dustNum"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weekWeatherWrap">
+                            <div class="weekWeather">
+                                <p class="weekTitle">주간날씨예보</p>
+                                <div class="weekWeatherBoxs">
+                                    <div class="weekWeatherBox weekWeatherBox1">
+                                        <div class="weekDateBox">
+                                            <p class="weekDate"><span class="blind">date</span></p>
+                                        </div>
+                                        <div class="weekRainfallBox">
+                                            <div class="weekRainfallIcon">
+                                                <img src="img/icon/umbrella.png" alt="umbrellaIcon">
+                                            </div>
+                                            <p class="rainfallPer"><span class="blind">percentage</span></p>
+                                        </div>
+                                        <div class="weekWeatherIcon">
+                                            <div class="weekAmIcon">
+                                                <img src="img/weather/11am.png" alt="weatherIcon">
+                                            </div>
+                                            <div class="weekPmIcon">
+                                                <img src="img/weather/11pm.png" alt="weatherIcon">
+                                            </div>
+                                        </div>
+                                        <div class="weekTempBox">
+                                            <p><span class="blind">weekMinTemp</span><span class="blind">weekMaxTemp</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="weekWeatherBox weekWeatherBox2">
+                                        <div class="weekDateBox">
+                                            <p class="weekDate"><span class="blind">date</span></p>
+                                        </div>
+                                        <div class="weekRainfallBox">
+                                            <div class="weekRainfallIcon">
+                                                <img src="img/icon/umbrella.png" alt="umbrellaIcon">
+                                            </div>
+                                            <p class="rainfallPer"><span class="blind">percentage</span></p>
+                                        </div>
+                                        <div class="weekWeatherIcon">
+                                            <div class="weekAmIcon">
+                                                <img src="img/weather/11am.png" alt="weatherIcon">
+                                            </div>
+                                            <div class="weekPmIcon">
+                                                <img src="img/weather/11pm.png" alt="weatherIcon">
+                                            </div>
+                                        </div>
+                                        <div class="weekTempBox">
+                                            <p><span class="blind">weekMinTemp</span><span class="blind">weekMaxTemp</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="weekWeatherBox weekWeatherBox3">
+                                        <div class="weekDateBox">
+                                            <p class="weekDate"><span class="blind">date</span></p>
+                                        </div>
+                                        <div class="weekRainfallBox">
+                                            <div class="weekRainfallIcon">
+                                                <img src="img/icon/umbrella.png" alt="umbrellaIcon">
+                                            </div>
+                                            <p class="rainfallPer"><span class="blind">percentage</span></p>
+                                        </div>
+                                        <div class="weekWeatherIcon">
+                                            <div class="weekAmIcon">
+                                                <img src="img/weather/11am.png" alt="weatherIcon">
+                                            </div>
+                                            <div class="weekPmIcon">
+                                                <img src="img/weather/11pm.png" alt="weatherIcon">
+                                            </div>
+                                        </div>
+                                        <div class="weekTempBox">
+                                            <p><span class="blind">weekMinTemp</span><span class="blind">weekMaxTemp</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="weekWeatherBox weekWeatherBox4">
+                                        <div class="weekDateBox">
+                                            <p class="weekDate"><span class="blind">date</span></p>
+                                        </div>
+                                        <div class="weekRainfallBox">
+                                            <div class="weekRainfallIcon">
+                                                <img src="img/icon/umbrella.png" alt="umbrellaIcon">
+                                            </div>
+                                            <p class="rainfallPer"><span class="blind">percentage</span></p>
+                                        </div>
+                                        <div class="weekWeatherIcon">
+                                            <div class="weekAmIcon">
+                                                <img src="img/weather/11am.png" alt="weatherIcon">
+                                            </div>
+                                            <div class="weekPmIcon">
+                                                <img src="img/weather/11pm.png" alt="weatherIcon">
+                                            </div>
+                                        </div>
+                                        <div class="weekTempBox">
+                                            <p><span class="blind">weekMinTemp</span><span class="blind">weekMaxTemp</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="weekWeatherBox weekWeatherBox6">
+                                        <div class="weekDateBox">
+                                            <p class="weekDate"><span class="blind">date</span></p>
+                                        </div>
+                                        <div class="weekRainfallBox">
+                                            <div class="weekRainfallIcon">
+                                                <img src="img/icon/umbrella.png" alt="umbrellaIcon">
+                                            </div>
+                                            <p class="rainfallPer"><span class="blind">percentage</span></p>
+                                        </div>
+                                        <div class="weekWeatherIcon">
+                                            <div class="weekAmIcon">
+                                                <img src="img/weather/11am.png" alt="weatherIcon">
+                                            </div>
+                                            <div class="weekPmIcon">
+                                                <img src="img/weather/11pm.png" alt="weatherIcon">
+                                            </div>
+                                        </div>
+                                        <div class="weekTempBox">
+                                            <p><span class="blind">weekMinTemp</span><span class="blind">weekMaxTemp</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="errorContent">
+                        <div class="errorWrap">
+                            <div class="errorImg">
+                                <img src="img/img/error.png" alt="errorImg">
+                            </div>
+                            <div class="errorText">
+                                <p>등록된 날씨 정보가 없습니다.</p>
+                                <p>다시 입력해주세요</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

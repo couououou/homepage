@@ -1,0 +1,298 @@
+@charset "utf-8";
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+html, body {
+    background:#eeeeee;
+    /* font-family: 'Roboto','맑은 고딕','Arial', sans-serif; */
+    font-family: 'NanumSquare', 'Noto Sans KR', sans-serif;;
+    font-weight:500;
+    background:#E6F0FF;
+    color:#333333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.weatherWrap {
+    position:relative;
+}
+.weatherWrap .weatherBox {
+    min-width:320px;
+    max-width:320px;
+    height:auto;
+    padding:20px 14px;
+    background:#ffffff;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* weatherHeader */
+.weather .weatherHeader {
+    font-size:18px;
+    font-weight:500;
+    transition:margin .3s ease-in-out;
+}
+.weather .weatherHeader .searchBoxWrap {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.weather .weatherHeader .searchBoxWrap .posIcon {
+    font-size:18px;
+}
+.weather .weatherHeader .searchBoxWrap #searchBox {
+    width:100%;
+    margin-left:10px;
+    line-height:18px;
+    font-size:15px;
+    color:inherit;
+    border:none;
+    padding:6px 0px;
+    background-color:transparent;
+}
+.weather .weatherHeader .searchBoxWrap #searchBox::placeholder {
+    color:inherit;
+}
+.weather .weatherHeader .searchBoxWrap #searchBox:focus {
+    outline:none;
+}
+.weather .weatherHeader .searchBoxWrap .xmarkIcon {
+    font-size:16px;
+    color:#999999;
+    cursor:pointer;
+    display:none;
+}
+.weather .weatherHeader .searchBoxWrap .searchIcon {
+    font-size:18px;
+    cursor:pointer;
+    color:inherit;
+}
+
+/* autoComplete */ 
+.autoComplete {
+    position:absolute;
+    width:100%;
+    transform:translateX(-14px);
+    max-height:188px;
+    overflow-y:hidden;
+    z-index:100;
+    background:#f7f7f7;
+    border-radius:10px;
+    padding:6px 0;
+    margin-top:4px;
+    display:none; /* foucs -> blcok */
+}
+.autoComplete p {
+    font-size:14px;
+    line-height:20px;
+    margin:6px 0;
+    padding:4px 36px;
+    cursor:pointer;
+    color:#555555;
+}
+.autoComplete p.active {
+	background:#D4D7DC;
+    border-radius:2px;
+}
+.autoComplete p .mark {
+    color:#0098FA;
+    font-weight:700;
+}
+
+/* weatherContent */
+.weatherContent {
+    display:flex;
+    flex-direction:column;
+    padding-top:32px;
+    justify-content:center;
+}
+.weatherContent .weatherImg {
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.weatherContent .weatherImg img {
+    width:160px;
+}
+
+.weatherContent .temperature {
+    font-size:14px;
+    line-height:1.2;
+    font-weight:800;
+    text-align:center;
+    color:#555555;
+    margin-top:16px;
+}
+.weatherContent .temperature .searchPos { 
+    font-size:16px;
+    font-weight:700;
+    margin-bottom:2px;
+}
+.weatherContent .temperature .weatherInfo span {
+    color:#333333;
+    padding:0 5px;
+    font-size:18px;
+    vertical-align:middle;
+}
+
+/* weatherOtherInfo */
+.weatherContent .weatherOtherInfoWrap {
+    margin-top:16px;
+    font-size:13px;
+    line-height:1.4;
+    color:#555555;
+}
+.weatherOtherInfoBoxs {
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+.weatherOtherInfoText {
+    font-size:14px;
+    font-weight:800;
+}
+
+/* dust */
+.weatherContent .finedustWrap {
+    display:flex;
+    flex-direction:row;
+    margin-top:12px;
+    background:#f7f7f7;
+    border-radius:10px;
+    padding:12px 14px;
+}
+.weatherContent .finedustWrap .finedustBox {
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height:auto;
+}
+.finedustBox .dustIconBox img {
+    width:28px;
+}
+.finedustBox .dustTextBox {
+    font-size:14px;
+    line-height:1.4;
+    padding-left:8px;
+    font-weight:800;
+    color:#555555;
+}
+.finedustBox .dustTextBox .dustTitle {
+    font-weight:500;
+    font-size:13px;
+}
+.finedustBox .dustTextBox .dustNum {
+    padding-left:4px;
+}
+
+/* weekWeather */
+.weekWeatherWrap {
+    background:#f7f7f7;
+    margin-top:12px;
+    border-radius:10px;
+    padding:12px 14px;
+    font-size:14px;
+    line-height:1.4;
+    font-weight:800;
+}
+.weekWeather .weekTitle {
+    font-size:13px;
+    color:#555555;
+    font-weight:500;
+}
+
+.weekWeather .weekWeatherBoxs {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-top:10px;
+    width:100%;
+}
+.weekWeather .weekWeatherBoxs .weekWeatherBox {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+    position:relative;
+}
+.weekWeather .weekWeatherBoxs .weekWeatherBox::after {
+    display:block;
+    content:'';
+    width:100%;
+    height:0.1px;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-10px;
+    background:#cccccc;
+}
+.weekWeather .weekWeatherBoxs>div:last-child {
+    margin-bottom:0;
+}
+.weekWeather .weekWeatherBoxs>div:last-child::after {
+    display:none;
+}
+
+.weekWeather .weekWeatherBoxs .weekWeatherBox .weekDateBox {
+    color:#555555;
+    font-size:14px;
+    width:40px;
+    text-align:right;
+}
+
+.weekWeather .weekWeatherBoxs .weekWeatherBox .weekRainfallBox {
+    display:flex;  
+    justify-content:flex-start;
+    width:56px;
+}
+.weekRainfallBox .weekRainfallIcon img {
+    width:18px;
+    vertical-align:middle;
+}
+.weekRainfallBox .rainfallPer {
+    margin-left:4px;
+}
+.weekWeather .weekWeatherBoxs .weekWeatherBox .weekWeatherIcon {
+    display:flex;
+    justify-content:space-around;
+    width:56px;
+}
+.weekWeatherIcon img {
+    width:20px;
+    vertical-align:middle;
+}
+
+.weekWeather .weekWeatherBoxs .weekWeatherBox .weekTempBox {
+    width:60px;
+}
+.weekTempBox p {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+/* errorContent */
+.errorContent {
+    display:none;
+    padding-top:20px;
+    font-size:14px;
+    line-height:1.4;
+    font-weight:700;
+    text-align:center;
+}
+.errorWrap {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.errorWrap .errorImg img {
+    width:250px;
+}
+.errorWrap .errorText {
+    padding-top:10px;
+}
