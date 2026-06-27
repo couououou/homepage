@@ -31,46 +31,48 @@
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ogl@0.0.32/dist/ogl.umd.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- smooth-scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar@8.8.4/dist/smooth-scrollbar.js"></script>
     <script src="javascript/javascript.js" defer></script>
 
 
-    <title>김성배 포트폴리오ddd</title>
+    <title>김성배 포트폴리오</title>
 </head>
-<body>
-    <!-- <section class="loadingPage">
-        <div class="loadingWrap wrap">
-            <div class="topPageSlide pageSlide"></div>
-            <div class="bottomtPageSlide pageSlide"></div>
+<body class="loadingActive">
+    <section class="loadingPage">
+        <div class="loading_cube_wrap">
+            <div class="loading_cube">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+                <div class="side left"></div>
+                <div class="side right"></div>
+            </div>
+        </div>
+        <div class="loadingWrap">
             <div class="loadingContent">
-                <div class="circle"></div>
-                <div class="circle_ring"></div>
-                <svg class="octagon">
-                    <polygon points="60,0 140,0 200,60 200,140 140,200 60,200 0,140 0,60"/>
-                </svg>
-                <div class="octa_lines">
-                    <div class="loading_line l1"></div>
-                    <div class="loading_line l2"></div>
-                    <div class="loading_line l3"></div>
-                    <div class="loading_line l4"></div>
+                <div class="windowBar">
+                    <div class="windowTitle">
+                        <p>protfolio.html</p>
+                    </div>
+                    <div class="windowBtn">
+                        <div class="dotBtn"></div>
+                        <div class="dotBtn"></div>
+                        <div class="dotBtn"></div>
+                    </div>
                 </div>
-                <svg class="triangle">
-                    <polygon points="106,0 212,180 0,180" />
-                </svg>
-                <div class="tri_lines">
-                    <div class="loading_line l1"></div>
-                    <div class="loading_line l2"></div>
-                    <div class="loading_line l3"></div>
+                <div class="editor">
+                    <dl class="typing"></dl>
                 </div>
-                <svg class="rectangle">
-                    <polygon points="100,0 200,100 100,200 0,100"/>
-                </svg>
-                <div class="rect_lines">
-                    <div class="loading_line l1"></div>
-                    <div class="loading_line l2"></div>
+                <div class="statusBar">
+                    <p class="statusItem">Ln7, Col1</p>
+                    <p class="statusItem">Space:3</p>
+                    <p class="statusItem">UFT-8</p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <header class="header">
         <nav class="nav floatClear">
             <div class="wrap">
@@ -98,239 +100,241 @@
             </div>
         </nav>
     </header>
-    <section class="home" id="home">
-        <div class="particles-wrapper">
-            <div class="particles" id="particles"></div>
-        </div>
-        <div class="mainContent">
-            <div class="mainText">
-                <h1 class="h1title">
-                    KIM SEONG BAE<br>
-                    PORTFOLIO
-                </h1>
-                <h5>
-                    작은 변화가 모여 큰 가치를 만든다.<br>
-                    끊임없이 배우고 도전하며 성장하는 김성배입니다.<br>
-                    방문해주셔서 감사합니다.
-                </h5>
+    <section class="contentWrap" id="scroll">
+        <section class="home" id="home">
+            <div class="particles-wrapper">
+                <div class="particles" id="particles"></div>
             </div>
-        </div>
-        <script src="javascript/main.js"></script> 
-    </section>
-    <section class="about floatclear sectionContent" id="about">
-        <div class="aboutWrap wrap2">
-            <div class="title contentTitle aboutTitle eng">
-                <h2>
-                    <div class="titleBrace">
-                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
-                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
-                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
-                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
-                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
-                            fill="currentColor"/>
-                        </svg>
-                    </div>
-                    <span>About Me</span>
-                    <div class="titleBrace titleBraceReverse">
-                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
-                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
-                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
-                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
-                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
-                            fill="currentColor"/>
-                        </svg>
-                    </div>
-                </h2>
+            <div class="mainContent">
+                <div class="mainText">
+                    <h1 class="h1title">
+                        KIM SEONG BAE<br>
+                        PORTFOLIO
+                    </h1>
+                    <h5>
+                        작은 변화가 모여 큰 가치를 만든다.<br>
+                        끊임없이 배우고 도전하며 성장하는 김성배입니다.<br>
+                        방문해주셔서 감사합니다.
+                    </h5>
+                </div>
             </div>
-            <div class="aboutBoxs">
-                <div class="aboutBox infoBox">
-                    <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Introduce</h5>
-                    <div class="aboutInfo">
-                        <ul class="infoLeft">
-                            <li>이름</li>
-                            <li>생년월일</li>
-                            <li>주소</li>
-                            <li>연락처</li>
-                            <li>E-mail</li>
-                        </ul>
-                        <ul class="infoRight">
-                            <li>김성배</li>
-                            <li>1995.09.21</li>
-                            <li>대구 수성구</li>
-                            <li>010-6690-3652</li>
-                            <li>bluemoon6690@naver.com</li>
-                        </ul>
+            <script src="javascript/main.js"></script> 
+        </section>
+        <section class="about floatclear sectionContent" id="about">
+            <div class="aboutWrap wrap2">
+                <div class="title contentTitle aboutTitle eng">
+                    <h2>
+                        <div class="titleBrace">
+                            <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                                <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                                23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                                29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                                16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                                fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span>About Me</span>
+                        <div class="titleBrace titleBraceReverse">
+                            <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                                <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                                23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                                29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                                16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                                fill="currentColor"/>
+                            </svg>
+                        </div>
+                    </h2>
+                </div>
+                <div class="aboutBoxs">
+                    <div class="aboutBox infoBox">
+                        <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Introduce</h5>
+                        <div class="aboutInfo">
+                            <ul class="infoLeft">
+                                <li>이름</li>
+                                <li>생년월일</li>
+                                <li>주소</li>
+                                <li>연락처</li>
+                                <li>E-mail</li>
+                            </ul>
+                            <ul class="infoRight">
+                                <li>김성배</li>
+                                <li>1995.09.21</li>
+                                <li>대구 수성구</li>
+                                <li>010-6690-3652</li>
+                                <li>bluemoon6690@naver.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aboutBox educBox">
+                        <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Education</h5>
+                        <div class="aboutInfo">
+                            <ul class="infoLeft">
+                                <li>방송통신대학교</li>
+                                <li>충주직업전문학교</li>
+                                <li>충북반도체고등학교</li>
+                            </ul>
+                            <ul class="infoRight">
+                                <li>2020.03 ~ 휴학</li>
+                                <li>2018.11 ~ 2019.04</li>
+                                <li>2011.03 ~ 2014.02</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aboutBox certiBox">
+                        <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Certificate</h5>
+                        <div class="aboutInfo">
+                            <ul>
+                                <li>웹디자인기능사</li>
+                                <li>GTQ그래픽기술자격 1급</li>
+                                <li>전자기기기능사</li>
+                                <li>정보처리기능사</li>
+                                <li>ITQ(엑셀, 한글, 파워포인트)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aboutBox aboutBox2">
+                        <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Experience</h5>
+                        <div class="aboutInfo exp">
+                            <ul class="expTitle">
+                                <li>11마리의 낭만고양이 - 웹디자인팀</li>
+                            </ul>
+                            <ul class="expInfo">
+                                <li>-&nbsp;&nbsp;홈페이지 유지보수</li>
+                                <li>-&nbsp;&nbsp;더튼튼플란트치과의원 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
+                                <li>-&nbsp;&nbsp;시그널케어 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
+                                <li>-&nbsp;&nbsp;메이저치과 홈페이지 제작</li>
+                                <li>-&nbsp;&nbsp;빛을 나누는 사람들 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
+                                <li>-&nbsp;&nbsp;울진 대게축제 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
+                                <li>-&nbsp;&nbsp;정재수법률사무소 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
+                                <li>
+                                    -&nbsp;&nbsp;화성세탁기계 홈페이지 제작<br>
+                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;※ 홈페이지 이관 후 누락된 페이지 제작</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aboutBox aboutBox2 aboutBoxSkill">
+                        <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Skills</h5>
+                        <div class="aboutInfo skill">
+                            <ul>
+                                <li>
+                                    <img src="/img/icon/html_icon.png" alt="html">
+                                    <div class="skillDot"><p>● ● ● ● ●</p></div>
+                                </li>
+                                <li>
+                                    <img src="/img/icon/css_icon.png" alt="css">
+                                    <div class="skillDot"><p>● ● ● ● ●</p></div>
+                                </li>
+                                <li>
+                                    <img src="/img/icon/js_icon.png" alt="js">
+                                    <div class="skillDot"><p>● ● ● ● ○</p></div>
+                                </li>
+                                <li>
+                                    <img src="/img/icon/jquery_icon.png" alt="jquery">
+                                    <div class="skillDot"><p>● ● ● ● ○</p></div>
+                                </li>
+                                <li>
+                                    <img src="/img/icon/ps_icon.png" alt="ps">
+                                    <div class="skillDot"><p>● ● ● ● ○</p></div>
+                                </li>
+                                <li>
+                                    <img src="/img/icon/ai_icon.png" alt="ai">
+                                    <div class="skillDot"><p>● ● ● ○ ○</p></div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="aboutBox educBox">
-                    <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Education</h5>
-                    <div class="aboutInfo">
-                        <ul class="infoLeft">
-                            <li>방송통신대학교</li>
-                            <li>충주직업전문학교</li>
-                            <li>충북반도체고등학교</li>
-                        </ul>
-                        <ul class="infoRight">
-                            <li>2020.03 ~ 휴학</li>
-                            <li>2018.11 ~ 2019.04</li>
-                            <li>2011.03 ~ 2014.02</li>
-                        </ul>
-                    </div>
+            </div>
+        </section>
+        <section class="project floatclear sectionContent" id="project">
+            <div class="projectWrap wrap2">
+                <div class="title projectTitle eng">
+                    <h2>
+                        <div class="titleBrace">
+                            <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                                <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                                23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                                29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                                16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                                fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span>Project</span>
+                        <div class="titleBrace titleBraceReverse">
+                            <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
+                                <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
+                                23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
+                                29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
+                                16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
+                                fill="currentColor"/>
+                            </svg>
+                        </div>
+                    </h2>
                 </div>
-                <div class="aboutBox certiBox">
-                    <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Certificate</h5>
-                    <div class="aboutInfo">
+                <div class="projectBoxs">
+                    <div class="projectBox infoBox">
                         <ul>
-                            <li>웹디자인기능사</li>
-                            <li>GTQ그래픽기술자격 1급</li>
-                            <li>전자기기기능사</li>
-                            <li>정보처리기능사</li>
-                            <li>ITQ(엑셀, 한글, 파워포인트)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="aboutBox aboutBox2">
-                    <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Experience</h5>
-                    <div class="aboutInfo exp">
-                        <ul class="expTitle">
-                            <li>11마리의 낭만고양이 - 웹디자인팀</li>
-                        </ul>
-                        <ul class="expInfo">
-                            <li>-&nbsp;&nbsp;홈페이지 유지보수</li>
-                            <li>-&nbsp;&nbsp;더튼튼플란트치과의원 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
-                            <li>-&nbsp;&nbsp;시그널케어 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
-                            <li>-&nbsp;&nbsp;메이저치과 홈페이지 제작</li>
-                            <li>-&nbsp;&nbsp;빛을 나누는 사람들 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
-                            <li>-&nbsp;&nbsp;울진 대게축제 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
-                            <li>-&nbsp;&nbsp;정재수법률사무소 홈페이지 제작&nbsp;&nbsp;<i class="fa-solid fa-shop-slash "></i></li>
-                            <li>
-                                -&nbsp;&nbsp;화성세탁기계 홈페이지 제작<br>
-                                <span>&nbsp;&nbsp;&nbsp;&nbsp;※ 홈페이지 이관 후 누락된 페이지 제작</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="aboutBox aboutBox2 aboutBoxSkill">
-                    <h5 class="aboutTitle"><i class="fa-solid fa-code"></i> Skills</h5>
-                    <div class="aboutInfo skill">
-                        <ul>
-                            <li>
-                                <img src="img/icon/html_icon.png" alt="html">
-                                <div class="skillDot"><p>● ● ● ● ●</p></div>
+                            <li class="weather">
+                                <a href="/project/weather.html">
+                                    <div class="imgBox">
+                                        <img src="img/portfolio/web/weather/weather_main02.png" alt="waether">
+                                    </div>
+                                    <div class="textBox">
+                                        <p>개인 프로젝트</p>
+                                        <h5>오늘의 날씨</h5>
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <img src="img/icon/css_icon.png" alt="css">
-                                <div class="skillDot"><p>● ● ● ● ●</p></div>
+                                <a href="/project/hwasung.html">
+                                    <div class="imgBox">
+                                        <img src="/img/portfolio/web/hwasung/hwasung_main.png" alt="hwasung">
+                                    </div>
+                                    <div class="textBox">
+                                        <p>홈페이지 리뉴얼</p>
+                                        <h5>화성세탁기계</h5>
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <img src="img/icon/js_icon.png" alt="js">
-                                <div class="skillDot"><p>● ● ● ● ○</p></div>
+                                <a href="/project/law.html">
+                                    <div class="imgBox">
+                                        <img src="/img/portfolio/web/law/law_main.png" alt="law">
+                                    </div>
+                                    <div class="textBox">
+                                        <p>신규 제작</p>
+                                        <h5>정재수법률사무소</h5>
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <img src="img/icon/jquery_icon.png" alt="jquery">
-                                <div class="skillDot"><p>● ● ● ● ○</p></div>
+                                <a href="/project/major.html">
+                                    <div class="imgBox">
+                                        <img src="/img/portfolio/web/major/major_main.png" alt="major">
+                                    </div>
+                                    <div class="textBox">
+                                        <p>신규 제작</p>
+                                        <h5>메이저치과</h5>
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <img src="img/icon/ps_icon.png" alt="ps">
-                                <div class="skillDot"><p>● ● ● ● ○</p></div>
-                            </li>
-                            <li>
-                                <img src="img/icon/ai_icon.png" alt="ai">
-                                <div class="skillDot"><p>● ● ● ○ ○</p></div>
+                                <a href="/project/signal.html">
+                                    <div class="imgBox">
+                                        <img src="/img/portfolio/web/signal/signal_main.png" alt="signal">
+                                    </div>
+                                    <div class="textBox">
+                                        <p>홈페이지 리뉴얼</p>
+                                        <h5>시그널케어</h5>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="project floatclear sectionContent" id="project">
-        <div class="projectWrap wrap2">
-            <div class="title projectTitle eng">
-                <h2>
-                    <div class="titleBrace">
-                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
-                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
-                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
-                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
-                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
-                            fill="currentColor"/>
-                        </svg>
-                    </div>
-                    <span>Project</span>
-                    <div class="titleBrace titleBraceReverse">
-                        <svg viewBox="180 40 160 430" preserveAspectRatio="xMidYMid meet">
-                            <path d="M290 81.5c-17.9 4-34.8 17.2-42.9 33.5-6.6 13.5-7.1 17.3-7.1 59.6v37l-2.6 5.2c-4.7 9.4-18.8 19.7-32.5 
-                            23.6-17.2 4.9-17.2 26.3 0 31.2 13.7 3.9 27.8 14.2 32.5 23.6l2.6 5.2v37c0 42.3.5 46.1 7.1 59.6 8.2 16.6 25.5 
-                            29.8 43.9 33.6 18.3 3.8 28.5-1.4 28.5-14.6 0-9.9-5-14.6-17.1-16.1-13.3-1.7-22.1-7.7-27.6-18.9-2.2-4.4-2.3-5.6-2.9-45.5-.6-45.4-.4-44.4-8-58.5-3.1-5.9-12.1-16.2-16.8-19.3l-2.5-1.6 3-2.2c9.2-7
-                            16.9-17.8 21.6-30.6 2.1-5.5 2.2-8.1 2.7-46.8l.6-41 2.5-5c5.3-10.7 14.3-16.7 27.6-18.4 11.9-1.5 16.9-6.2 16.9-16.1 0-6.3-1.6-9.5-6.8-13.4-3.5-2.6-13.7-3.1-22.7-1.1"
-                            fill="currentColor"/>
-                        </svg>
-                    </div>
-                </h2>
-            </div>
-            <div class="projectBoxs">
-                <div class="projectBox infoBox">
-                    <ul>
-                        <li>
-                            <a href="project/weather.html">
-                                <div class="imgBox">
-                                    <img src="img/portfolio/web/weather/weather_main02.png" alt="weather">
-                                </div>
-                                <div class="textBox">
-                                    <p>개인 프로젝트</p>
-                                    <h5>오늘의 날씨</h5>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="project/hwasung.html">
-                                <div class="imgBox">
-                                    <img src="img/portfolio/web/hwasung/hwasung_main.png" alt="hwasung">
-                                </div>
-                                <div class="textBox">
-                                    <p>홈페이지 리뉴얼</p>
-                                    <h5>화성세탁기계</h5>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="project/law.html">
-                                <div class="imgBox">
-                                    <img src="img/portfolio/web/law/law_main.png" alt="law">
-                                </div>
-                                <div class="textBox">
-                                    <p>신규 제작</p>
-                                    <h5>정재수법률사무소</h5>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="project/major.html">
-                                <div class="imgBox">
-                                    <img src="img/portfolio/web/major/major_main.png" alt="major">
-                                </div>
-                                <div class="textBox">
-                                    <p>신규 제작</p>
-                                    <h5>메이저치과</h5>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="project/signal.html">
-                                <div class="imgBox">
-                                    <img src="img/portfolio/web/signal/signal_main.png" alt="signal">
-                                </div>
-                                <div class="textBox">
-                                    <p>홈페이지 리뉴얼</p>
-                                    <h5>시그널케어</h5>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        </section>
     </section>
     <!-- <footer class="footer clearfloat sectionContent" id="footer">
         <div class="footerContentWrap wrap">
