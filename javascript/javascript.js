@@ -1,4 +1,5 @@
 window.addEventListener('load', function () {
+    console.log('javascript');
     // smooth_scroll 
     const scroll_content = document.querySelector('#scroll');
     let smooth_scroll_bar = null;
@@ -606,13 +607,6 @@ window.addEventListener('load', function () {
         WFImgHeightResizeTimer = setTimeout(() => {
             WFImgHeight();
         }, 300);
-    });
-
-    window.addEventListener('pagehide', () => {
-        console.log(
-            'pagehide scrollY:',
-            window.scrollY
-        );
     });
 });
 

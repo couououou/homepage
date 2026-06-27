@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-
+    console.log('react');
     var spotlightCards = document.querySelectorAll('.card-spotlight');
 
     spotlightCards.forEach(function(card) {

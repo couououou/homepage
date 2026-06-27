@@ -1,4 +1,5 @@
 window.addEventListener('load', function () {
+    console.log('main')
     // spotlight card
     document.querySelectorAll(".card-spotlight").forEach(function(card){
 
