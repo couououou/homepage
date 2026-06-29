@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-    /* // smooth_scroll 
+    // smooth_scroll 
     const scroll_content = document.querySelector('#scroll');
     let smooth_scroll_bar = null;
     let current_scroll_top = 0;
@@ -150,7 +150,7 @@ window.addEventListener('load', function () {
                 }
             });
         }
-    } */
+    }
 
         
     // scrollBar
