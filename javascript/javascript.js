@@ -32,7 +32,8 @@ window.addEventListener('load', function () {
             document.body.style.overflow = 'hidden';
 
             if ( !smooth_scroll_bar) {
-                console.log(
+
+console.log(
     "before init:",
     scroll_content.scrollTop
 );
@@ -45,13 +46,13 @@ window.addEventListener('load', function () {
                     continuousScrolling: true,
                     renderByPixels: true
                 });
-            }
 
-            console.log(
+
+                console.log(
     "after init:",
     scroll_content.scrollTop
 );
-
+            }
 
             smooth_scroll_bar.scrollTo(0, current_scroll_top, 0);
             sessionStorage.removeItem('index-scroll');
