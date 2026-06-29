@@ -123,6 +123,14 @@ html, body {
 .project_info .project_info_text h2 span { 
     display:inline-block;
 }
+.project_info .project_info_text_wrap h2 a.linkTag svg {
+    display:block;
+    fill: #25252C;
+    width: 36px;
+    height: 36px;
+    margin-left:12px;
+    transform: scaleY(-1);
+}
 .project_info .project_info_text h5 {
     font-size:24px;
     font-weight:700;
@@ -819,14 +827,7 @@ html, body {
     display:block;
     width:65%;
 }
-.weather .project_visual .project_info .project_info_content .project_info_text_wrap h2 a svg {
-    display:block;
-    fill: #25252C;
-    width: 36px;
-    height: 36px;
-    margin-left:12px;
-    transform: scaleY(-1);
-}
+
 .weather .project_visual .project_info .project_info_content .project_info_text {
 }
 .weather .project_visual .project_info .project_info_content .project_visual_img {
