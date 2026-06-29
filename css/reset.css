@@ -152,9 +152,9 @@ html, body {
     transform:translateY(0);
 }
 
-#scroll {
+/* #scroll {
 	height:100vh;
-}
+} */
 /* @media screen and (max-width:768px) {
 	html, body {
 		overflow:auto;

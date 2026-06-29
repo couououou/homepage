@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-    // smooth_scroll 
+    /* // smooth_scroll 
     const scroll_content = document.querySelector('#scroll');
     let smooth_scroll_bar = null;
     let current_scroll_top = 0;
@@ -32,13 +32,6 @@ window.addEventListener('load', function () {
             document.body.style.overflow = 'hidden';
 
             if ( !smooth_scroll_bar) {
-
-console.log(
-    "before init:",
-    scroll_content.scrollTop
-);
-
-
                 smooth_scroll_bar = Scrollbar.init(scroll_content, {
                     damping: 0.03,
                     delegateTo: document,
@@ -46,12 +39,6 @@ console.log(
                     continuousScrolling: true,
                     renderByPixels: true
                 });
-
-
-                console.log(
-    "after init:",
-    scroll_content.scrollTop
-);
             }
 
             smooth_scroll_bar.scrollTo(0, current_scroll_top, 0);
@@ -162,6 +149,91 @@ console.log(
         });
     });
     
+    // activeNav
+    function activeNav(scrollTop) {
+        if (document.querySelector('.nav')) {
+            const nav_height = document.querySelector('nav').offsetHeight;
+
+            remain_sections.forEach((section, index) => {
+
+                const section_top = section.offsetTop - nav_height;
+                const section_height = section.offsetHeight;
+
+                if ( scrollTop >= section_top && scrollTop < section_top + section_height) {
+                    nav_items.forEach((link) => {
+                        link.classList.remove('nowNav');
+                    });
+
+                    nav_items[index].classList.add('nowNav');
+                }
+            });
+        }
+    } */
+
+    const lenis = new Lenis({
+        duration: 1.2,
+        smoothWheel: true,
+        touchMultiplier: 1.5,
+        wheelMultiplier: 1,
+        infinite: false
+    });
+    document.documentElement.classList.add('lenis');
+    
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    // navControl
+    function navControl() {
+        const scroll_progress = $('.progressHeight');
+
+        lenis.on('scroll', (e) => {
+            scrollBarProgress(scroll);
+            scrollActive(scroll);
+            activeNav(scroll);
+        });
+
+        function scrollBarProgress(height) {
+            const document_height = document.documentElement.scrollHeight;
+            const page_height = window.innerHeight;
+            const total_height = document_height - page_height;
+            const percentage = height / total_height;
+
+            scroll_progress.css({width: `${percentage * 100}%`});
+        }
+
+        function scrollActive( height ) {
+           if (height > 0) {
+                $('nav').addClass('active');
+            } else {
+                $('nav').removeClass('active');
+            }
+        }
+    }
+    navControl();
+
+    // navLinkControl
+    const nav_links = document.querySelectorAll('nav a');
+    const nav_items = document.querySelectorAll('nav li')
+    const all_sections = document.querySelectorAll('section');
+    const remain_sections = [...all_sections].slice(2);
+    // nav_link_click
+    nav_links.forEach((link) => {
+        link.addEventListener('click', (e)=> {
+            e.preventDefault();
+            const target = document.querySelector(link.getAttribute('href'));
+            const navHeight = document.querySelector('nav').offsetHeight;
+            const targetTop = target.getBoundingClientRect().top + window.scrollY - navHeight;
+
+            lenis.scrollTo(targetTop, {
+                duration: 1.2
+            });
+        });
+    });
+
     // activeNav
     function activeNav(scrollTop) {
         if (document.querySelector('.nav')) {
