@@ -49,11 +49,18 @@ window.addEventListener('load', function () {
     handleSmoothScroll();
         
     window.addEventListener('pagehide', () => {
-        const scrollY = smooth_scroll_bar? smooth_scroll_bar.offset.y : window.scrollY;
+        if (!location.pathname.endsWith('index.html') &&
+            location.pathname !== '/homepage/' &&
+            !location.pathname.endsWith('/homepage/')) {
+            return;
+        }
 
-        sessionStorage.setItem(
-            'index-scroll', scrollY
-        );
+        const scrollY = smooth_scroll_bar
+            ? smooth_scroll_bar.offset.y
+            : window.scrollY;
+
+        sessionStorage.setItem('index-scroll', scrollY);
+
     });
 
     window.addEventListener('resize', ()=> {
