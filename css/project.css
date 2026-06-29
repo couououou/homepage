@@ -1166,10 +1166,6 @@ html, body {
         padding-top:140px;
         padding-bottom:140px;
     }
-    .weather .project_visual .project_info .project_info_content .project_info_text_wrap h2 a svg  {
-        width: 30px;
-        height: 30px;
-    }
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
         padding:24px;
         border-radius:20px;
@@ -1509,7 +1505,7 @@ html, body {
  
     .weather .project_preview_wrap .project_preview {
         column-gap:5%;
-        --translateY:80px;
+        --translateY:0px;
         width:95%;
         grid-template-columns:repeat(1,1fr);
     }
