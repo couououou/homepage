@@ -608,6 +608,19 @@ window.addEventListener('load', function () {
             WFImgHeight();
         }, 300);
     });
+
+
+    window.addEventListener("pageshow", (e) => {
+    console.log("persisted:", e.persisted);
+});
+
+window.addEventListener("pagehide", () => {
+    console.log("pagehide");
+});
+
+window.addEventListener("load", () => {
+    console.log("load");
+});
 });
 
 
