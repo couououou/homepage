@@ -1506,6 +1506,7 @@ html, body {
         column-gap:5%;
         --translateY:80px;
         width:95%;
+        grid-template-columns:repeat(1,1fr);
     }
 
 
