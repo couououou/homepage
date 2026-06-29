@@ -608,6 +608,11 @@ html, body {
     .project_info .project_info_text h2 .titleBrace svg {
         width:18px;
     }
+    .project_info .project_info_text h2 a.linkTag svg {
+        width: 24px;
+        height: 24px;
+        margin-left:8px;
+    }
     .project_info .project_info_text h5 {
         font-size:20px;
         margin-bottom:6px;
@@ -713,6 +718,11 @@ html, body {
     }
     .project_info .project_info_text h2 .titleBrace svg {
         width:14px;
+    }
+    .project_info .project_info_text h2 a.linkTag svg {
+        width: 20px;
+        height: 20px;
+        margin-left:6px;
     }
     .project_info .project_info_text h5 {
         font-size:18px;
