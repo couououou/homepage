@@ -24,7 +24,9 @@ window.addEventListener('load', function () {
         }
         // pc 
         else {
-            const current_scroll_top = smooth_scroll_bar?.offset?.y ?? window.scrollY;
+            // const current_scroll_top = smooth_scroll_bar?.offset?.y ?? window.scrollY;
+            const savedScroll = sessionStorage.getItem('index-scroll');
+            const current_scroll_top = savedScroll !== null? Number(savedScroll): (smooth_scroll_bar?.offset?.y ?? window.scrollY);
 
             document.documentElement.style.overflow = 'hidden';
             document.body.style.overflow = 'hidden';
@@ -40,10 +42,19 @@ window.addEventListener('load', function () {
             }
 
             smooth_scroll_bar.scrollTo(0, current_scroll_top, 0);
+            sessionStorage.removeItem('index-scroll');
         }
         navControl();
     }
     handleSmoothScroll();
+        
+    window.addEventListener('pagehide', () => {
+        const scrollY = smooth_scroll_bar? smooth_scroll_bar.offset.y : window.scrollY;
+
+        sessionStorage.setItem(
+            'index-scroll', scrollY
+        );
+    });
 
     window.addEventListener('resize', ()=> {
         window.resizeTimer = setTimeout(()=> {
@@ -152,7 +163,6 @@ window.addEventListener('load', function () {
         }
     }
 
-        
     // scrollBar
     /* function scrollBar() {
         const scrollProgress = $('.progressHeight');
