@@ -869,7 +869,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     z-index:1;
     position:relative;
 }
-.projectBoxs .projectBox ul li.weather a .imgBox {
+.projectBoxs .projectBox ul li.weather a {
     background:
         linear-gradient( 135deg, #E6F0FF 0%, #A5BFFF 35%, #6C63FF 60%, #4B3C8A 80%, #1C1A3A 100% );
 }
