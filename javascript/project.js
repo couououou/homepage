@@ -1,5 +1,4 @@
 window.addEventListener('load', function () {
-    console.log('project');
     // gsap.registerPlugin(ScrollTrigger);
 
     // gsap.utils.toArray('.project_visual img').forEach(container => {

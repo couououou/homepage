@@ -1,5 +1,4 @@
 window.addEventListener('load', function () {
-    console.log('javascript');
     // smooth_scroll 
     const scroll_content = document.querySelector('#scroll');
     let smooth_scroll_bar = null;
