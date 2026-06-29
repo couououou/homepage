@@ -191,9 +191,11 @@ window.addEventListener('load', function () {
         const scroll_progress = $('.progressHeight');
 
         lenis.on('scroll', (e) => {
-            scrollBarProgress(scroll);
-            scrollActive(scroll);
-            activeNav(scroll);
+            const scroll_top = window.scrollY;
+
+            scrollBarProgress(scroll_top);
+            scrollActive(scroll_top);
+            activeNav(scroll_top);
         });
 
         function scrollBarProgress(height) {
@@ -228,7 +230,8 @@ window.addEventListener('load', function () {
             const navHeight = document.querySelector('nav').offsetHeight;
             const targetTop = target.getBoundingClientRect().top + window.scrollY - navHeight;
 
-            lenis.scrollTo(targetTop, {
+            lenis.scrollTo(target, {
+                offset: -navHeight,
                 duration: 1.2
             });
         });
@@ -241,7 +244,7 @@ window.addEventListener('load', function () {
 
             remain_sections.forEach((section, index) => {
 
-                const section_top = section.offsetTop - nav_height;
+                const section_top = section.offsetTop - nav_height - 1;
                 const section_height = section.offsetHeight;
 
                 if ( scrollTop >= section_top && scrollTop < section_top + section_height) {
