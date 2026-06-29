@@ -301,9 +301,9 @@ $( document ).ready(function() {
 			//오늘날씨
 			let todatWeather = `https://api.openweathermap.org/data/2.5/weather?lat=${nowLat}&lon=${nowLon}&appid=00f55c9f5e9900fd14348f0dd9cbb0b6&units=metric&lang=kr`;
 			//주간날씨
-			let weekWather = `http://api.openweathermap.org/data/2.5/forecast?lat=${nowLat}&lon=${nowLon}&appid=00f55c9f5e9900fd14348f0dd9cbb0b6&units=metric&lang=kr`;
+			let weekWather = `https://api.openweathermap.org/data/2.5/forecast?lat=${nowLat}&lon=${nowLon}&appid=00f55c9f5e9900fd14348f0dd9cbb0b6&units=metric&lang=kr`;
 			//대기오염
-			let airPollution = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${nowLat}&lon=${nowLon}&appid=00f55c9f5e9900fd14348f0dd9cbb0b6`;
+			let airPollution = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${nowLat}&lon=${nowLon}&appid=00f55c9f5e9900fd14348f0dd9cbb0b6`;
 
 			$('.searchPos').text(nowCityName);
 			
