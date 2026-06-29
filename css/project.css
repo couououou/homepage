@@ -123,7 +123,7 @@ html, body {
 .project_info .project_info_text h2 span { 
     display:inline-block;
 }
-.project_info .project_info_text_wrap h2 a.linkTag svg {
+.project_info .project_info_text h2 a.linkTag svg {
     display:block;
     fill: #25252C;
     width: 36px;
@@ -385,6 +385,11 @@ html, body {
     .project_info .project_info_text h2 .titleBrace svg {
         width:28px;
     }
+    .project_info .project_info_text h2 a.linkTag svg {
+        width: 32px;
+        height: 32px;
+        margin-left:10px;
+    }
     /* project_info */
     .project_info_title  {
         margin-bottom:24px;
@@ -487,6 +492,10 @@ html, body {
     }
     .project_info .project_info_text h2 .titleBrace svg {
         width:24px;
+    }
+    .project_info .project_info_text h2 a.linkTag svg {
+        width: 30px;
+        height: 30px;
     }
     .project_info .project_info_text h5 {
         font-size:22px;
@@ -1081,11 +1090,6 @@ html, body {
     }
     .weather .project_visual .project_info .project_info_content .project_info_text_wrap { 
         width:100%;
-    }
-    .weather .project_visual .project_info .project_info_content .project_info_text_wrap h2 a svg {
-        width: 32px;
-        height: 32px;
-        margin-left:10px;
     }
     .weather .project_visual .project_info .project_info_content .project_visual_img {
         margin-top:40px;
