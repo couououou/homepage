@@ -258,6 +258,8 @@ window.addEventListener('pageshow', function (e) {
     loading_page.classList.add('show');
     document.body.classList.add('loadingActive');
 
+    window.lenis?.stop();
+
     // typing code
     const lines = [
         '<!DOCTYPE html>',
@@ -327,21 +329,11 @@ window.addEventListener('pageshow', function (e) {
 
     const timer = setInterval(type, 50);
 
-    function preventScroll(e) {
-        if (document.body.classList.contains('loadingActive')) {
-            e.preventDefault();
-        }
-    }
-
-    document.addEventListener('wheel', preventScroll, { passive: false });
-    document.addEventListener('touchmove', preventScroll, { passive: false });
-
     function hideLoading() {
         loading_page.classList.remove('show');
         document.body.classList.remove('loadingActive');
 
-        document.removeEventListener('wheel', preventScroll);
-        document.removeEventListener('touchmove', preventScroll);
+        window.lenis?.start();
     }
 
     if ( nav_type === "back_forward" ) {

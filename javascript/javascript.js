@@ -170,7 +170,7 @@ window.addEventListener('load', function () {
         }
     } */
 
-    const lenis = new Lenis({
+    window.lenis = new Lenis({
         duration: 1.2,
         smoothWheel: true,
         touchMultiplier: 1.5,
@@ -180,7 +180,7 @@ window.addEventListener('load', function () {
     document.documentElement.classList.add('lenis');
     
     function raf(time) {
-        lenis.raf(time);
+        window.lenis.raf(time);
         requestAnimationFrame(raf);
     }
 
@@ -190,7 +190,7 @@ window.addEventListener('load', function () {
     function navControl() {
         const scroll_progress = $('.progressHeight');
 
-        lenis.on('scroll', (e) => {
+        window.lenis.on('scroll', (e) => {
             const scroll_top = window.scrollY;
 
             scrollBarProgress(scroll_top);
@@ -230,7 +230,7 @@ window.addEventListener('load', function () {
             const navHeight = document.querySelector('nav').offsetHeight;
             const targetTop = target.getBoundingClientRect().top + window.scrollY - navHeight;
 
-            lenis.scrollTo(target, {
+            window.lenis.scrollTo(target, {
                 offset: -navHeight,
                 duration: 1.2
             });
