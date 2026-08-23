@@ -375,12 +375,12 @@ window.addEventListener('pageshow', function (e) {
                     'hasVisited', 'true'
                 );
             }, 8000);
-        }
-    };
+        };
 
-    if (document.readyState === 'complete') {
-        startTimer();
-    } else {
-        window.addEventListener('load', startTimer);
+        if (document.readyState === 'complete') {
+            startTimer();
+        } else {
+            window.addEventListener('load', startTimer);
+        }
     }
 });
