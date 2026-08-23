@@ -252,7 +252,10 @@ window.addEventListener('pageshow', function (e) {
 
     const loading_page = document.querySelector('.loadingPage');
     const nav_entries = performance.getEntriesByType('navigation');
-    const nav_type = nav_entries[0].type;
+    const nav_type = nav_entries.length > 0 ? nav_entries[0].type : '';
+    // const nav_type = nav_entries[0].type;
+    const hasVisited = sessionStorage.getItem('visited');
+
 
     
     loading_page.classList.add('show');
@@ -329,6 +332,7 @@ window.addEventListener('pageshow', function (e) {
 
     const timer = setInterval(type, 50);
 
+    /* 확인
     function hideLoading() {
         loading_page.classList.remove('show');
         document.body.classList.remove('loadingActive');
@@ -346,6 +350,37 @@ window.addEventListener('pageshow', function (e) {
                 setTimeout(hideLoading, 8000);
             });
         }
+    } */
+    function hideLoading() {
+        loading_page.classList.remove('show');
+        document.body.classList.remove('loadingActive');
+        window.lenis?.start();
     }
 
+    if (nav_type === "back_forward") { 
+        hideLoading();
+    } else if(hasVisited) {
+        hideLoading();
+    } else { 
+        loading_page.classList.add('show');
+        document.body.classList.add('loadingActive');
+
+        window.lenis?.stop();
+
+        const startTimer = () => {
+            setTimeoust(() => {
+                hideLoading();
+
+                seeseionStorage.setItem(
+                    'hasVisited', 'true'
+                );
+            }, 8000);
+        }
+    };
+
+    if (document.readyState === 'complete') {
+        startTimer();
+    } else {
+        window.addEventListener('load', startTimer);
+    }
 });
