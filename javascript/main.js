@@ -368,7 +368,7 @@ window.addEventListener('pageshow', function (e) {
         window.lenis?.stop();
 
         const startTimer = () => {
-            setTimeoust(() => {
+            setTimeout(() => {
                 hideLoading();
 
                 seeseionStorage.setItem(
