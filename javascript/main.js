@@ -254,14 +254,13 @@ window.addEventListener('pageshow', function (e) {
     const nav_entries = performance.getEntriesByType('navigation');
     const nav_type = nav_entries.length > 0 ? nav_entries[0].type : '';
     // const nav_type = nav_entries[0].type;
-    const hasVisited = sessionStorage.getItem('visited');
-
+    const hasVisited = sessionStorage.getItem('hasVisited');
 
     
-    loading_page.classList.add('show');
+    /* loading_page.classList.add('show');
     document.body.classList.add('loadingActive');
 
-    window.lenis?.stop();
+    window.lenis?.stop(); */
 
     // typing code
     const lines = [
@@ -371,8 +370,9 @@ window.addEventListener('pageshow', function (e) {
             setTimeout(() => {
                 hideLoading();
 
-                seeseionStorage.setItem(
-                    'hasVisited', 'true'
+                sessionStorage.setItem(
+                    'hasVisited',
+                    'true'
                 );
             }, 8000);
         };
