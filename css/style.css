@@ -729,7 +729,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     flex-direction:column;
     /* gap:32px; */
     position:relative;
-    padding:36px;
+    padding:36px 0;
 }
 .aboutBoxs::after {
     content: '';
@@ -746,19 +746,29 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 48px;
-    justify-items: end;
+    position: relative;
+}
+.aboutBoxs .aboutBoxWrap .aboutIcon {
+    position:absolute;
+    top:20px;
+    height:20px;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+    background:green;
+    border-radius:50%;
 }
 .aboutBoxs .aboutBox {
-    width:100%;
-    padding:32px;
+    width:95%;
+    padding:32px 32px 40px;
     border-radius:24px;
     grid-column: 1;
     background:#ffffff;
     box-shadow: 2px 4px 12px #00000010;
 }
-
 .aboutBoxs .aboutBox.aboutBox2 { 
-    grid-column: 2
+    grid-column:2;
+    justify-self:end;
 }
 .aboutBoxs .aboutBox .aboutTitle {
     font-size:24px;
