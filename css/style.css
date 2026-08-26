@@ -725,10 +725,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     border-radius:50%;
 } */
 .aboutBoxs {
-    display:grid;
-    grid-template-columns:2fr 2fr 2fr 2fr 2fr 2fr;
-    gap:32px;
-    grid-auto-rows:auto;
+    display:flex;
+    flex-direction:column;
+    /* gap:32px; */
 }
 .aboutBoxs .aboutBox {
     width:100%;
@@ -737,6 +736,10 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     grid-column: span 2;
     background:#ffffff;
     box-shadow: 2px 4px 12px #00000010;
+}
+.aboutBoxs .aboutBox::after {
+    content:'';
+    display:block;
 }
 .aboutBoxs .aboutBox.aboutBox2 { 
     grid-column: span 3;
