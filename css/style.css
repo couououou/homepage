@@ -742,7 +742,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     transform: translate(-50%, -50%);
     background: red;
 }
-.aboutBox .aboutBoxWrap {
+.aboutBoxs .aboutBoxWrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 48px;
