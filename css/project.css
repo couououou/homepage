@@ -886,38 +886,6 @@ html, body {
 .weather .project_detail_wrap .project_detail { 
     position:relative;
 }
-.weather .project_detail_wrap .project_detail .middle_line { 
-    position:absolute;
-    top:50%; left:50%;
-    transform: translate(-50%, -50%);
-    width:4px;
-    height:90%;
-    background:red;
-}
-.weather .project_detail_wrap .project_detail .middle_line::before {
-    content:'';
-    display:block;
-    position:absolute;
-    top:0; left:50%;
-    transform:translateX(-50%);
-    width:6px;
-    height:6px;
-    border-radius:50%;
-    background:blue;
-    overflow:hidden;
-}
-.weather .project_detail_wrap .project_detail .middle_line::after {
-    content:'';
-    display:block;
-    position:absolute;
-    top:0; left:50%;
-    transform:translateX(-50%);
-    width:6px;
-    height:6px;
-    border-radius:50%;
-    background:yellow;
-    overflow:hidden;
-}
 
 
 .weather .project_detail_wrap .project_detail .detail_box_contain {
