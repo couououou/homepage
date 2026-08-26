@@ -750,13 +750,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 }
 .aboutBoxs .aboutBoxWrap .aboutIcon {
     position:absolute;
-    top:20px;
+    width:20px;
     height:20px;
     top:20px;
     left:50%;
     transform:translateX(-50%);
     background:green;
     border-radius:50%;
+    z-index:10;
 }
 .aboutBoxs .aboutBox {
     width:95%;
