@@ -791,6 +791,17 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:relative;
     z-index:5;
 }
+.aboutBoxs .aboutBoxWrap .aboutBox .triangle {
+    position:absolute;
+    width:24px;
+    height:24px;
+    right:0;
+    top:28px;
+    transform:translateX(50%) rotate(45deg);
+    background:blue;
+    z-index:-1;
+    border-radius:4px;
+}
 .aboutBoxs .aboutBoxWrap .aboutBox.aboutBox1::before {
     content:'';
     position:absolute;
