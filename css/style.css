@@ -729,7 +729,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     flex-direction:column;
     /* gap:32px; */
     position:relative;
-    padding:36px 0;
+    padding:40px 0;
+    margin-top:40px;
 }
 .aboutBoxs::after {
     content: '';
@@ -740,13 +741,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: red;
+    background:#8b5cf6;
 }
 .aboutBoxs .aboutBoxWrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 48px;
     position: relative;
+    margin-bottom:40px;
 }
 .aboutBoxs .aboutBoxWrap .aboutIcon {
     position:absolute;
@@ -755,7 +757,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     top:20px;
     left:50%;
     transform:translateX(-50%);
-    background:green;
+    background:#00e5ff;
     border-radius:50%;
     z-index:10;
 }
