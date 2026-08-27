@@ -1244,6 +1244,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:28px;
     }
+    .aboutBoxs .aboutBoxWrap .aboutBox {
+        padding: 28px 28px 36px;
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
         width:60px;
     }
@@ -1294,32 +1297,32 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:24px;
     }
-    .aboutBoxs { gap:28px; }
-    .aboutBoxs .aboutBox { 
+    .aboutBoxs .aboutBoxWrap { gap:28px; }
+    .aboutBoxs .aboutBoxWrap .aboutBox { 
         padding:28px;
         border-radius:22px;
     }
-    .aboutBoxs .aboutBox .aboutTitle { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:22px;
         margin-bottom:10px;
     }
-    .aboutBoxs .aboutBox .aboutInfo { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo { 
         font-size:15px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.exp ul.expTitle { font-size:16px;}
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expTitle { font-size:16px;}
 
-    .aboutBoxs .aboutBox .aboutInfo ul li { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
         font-size:15px;
         margin-bottom:6px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul {
         margin-top:34px;
         gap:28px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li img { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
         width:56px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
 }
 @media screen and (max-width:768px) {
     .wrap {
