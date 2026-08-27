@@ -1504,28 +1504,28 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         width:14px;
     }
     .aboutBoxs { gap:20px; }
-    .aboutBoxs .aboutBox { 
+    .aboutBoxs .aboutBoxWrap .aboutBox { 
         padding:22px;
         border-radius:18px;
     }
-    .aboutBoxs .aboutBox .aboutTitle { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:18px;
         margin-bottom:6px;
     }
     
-    .aboutBoxs .aboutBox .aboutInfo ul li { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
         font-size:14px;
         margin-bottom:4px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo {
         margin-top:6px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo li {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li {
         margin-left:4px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul {
         margin-top:24px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li img { width:50px;}
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li .skillDot { margin-top:0; }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { width:50px;}
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot { margin-top:0; }
 }
