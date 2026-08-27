@@ -1359,10 +1359,11 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap .aboutIcon {
         left:0;
     }
-
+    .aboutBoxs .aboutBoxWrap .aboutBox {
+        justify-self: end;
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2 {
         grid-column: 1;
-        justify-self: start;
     }
 }
 @media screen and (max-width:768px) {
