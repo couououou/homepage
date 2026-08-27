@@ -763,7 +763,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     gap: 48px;
     position: relative;
     margin-bottom:40px;
-    isolation: isolate;
 }
 .aboutBoxs .aboutBoxWrap .aboutIcon {
     position:absolute;
