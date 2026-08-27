@@ -791,7 +791,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:relative;
     z-index:5;
 }
-.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox1::before {
+.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox1::after {
     content:'';
     position:absolute;
     width:24px;
@@ -807,7 +807,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     grid-column:2;
     justify-self:end;
 }
-.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2::before {
+.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2::after {
     content:'';
     position:absolute;
     width:4px;
