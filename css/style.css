@@ -1297,7 +1297,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:24px;
     }
-    .aboutBoxs .aboutBoxWrap { gap:28px; }
+    .aboutBoxs .aboutBoxWrap { gap:32px; }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
         padding:28px;
         border-radius:22px;
