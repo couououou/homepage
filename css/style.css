@@ -742,7 +742,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     left:50%;
     transform: translate(-50%, -50%);
     border-radius:50%;
-    background:green;
+    background:#8b5cf6;
+    z-index:1;
 }
 .aboutBoxs::after {
     content: '';
@@ -753,7 +754,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background:#8b5cf6;
+    background:#8b5cf680;
     border-radius:1000px;
 }
 .aboutBoxs .aboutBoxWrap {
@@ -802,6 +803,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 }
 .aboutBoxs .aboutBox .aboutInfo {
     font-weight:700;
+    display:flex;
+    margin-left:16px;
 }
 .aboutBoxs .aboutBox .aboutInfo ul li {
     margin-bottom:8px;
@@ -822,7 +825,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     color:#666666;
 }
 .aboutBoxs .aboutBox .aboutInfo.exp {
-
+    flex-direction:column;
 }
 .aboutBoxs .aboutBox .aboutInfo.exp ul.expTitle { 
     font-size:18px;
