@@ -781,7 +781,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 .aboutBoxs .aboutBoxWrap .aboutIcon img {
     width:60%;
 }
-.aboutBoxs .aboutBox {
+.aboutBoxs .aboutBoxWrap .aboutBox {
     width:95%;
     padding:32px 32px 40px;
     border-radius:24px;
@@ -791,7 +791,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:relative;
     z-index:5;
 }
-.aboutBoxs .aboutBox.aboutBox1::before {
+.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox1::before {
     content:'';
     position:absolute;
     width:24px;
@@ -803,11 +803,11 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     z-index:-1;
     border-radius:4px;
 }
-.aboutBoxs .aboutBox.aboutBox2 { 
+.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2 { 
     grid-column:2;
     justify-self:end;
 }
-.aboutBoxs .aboutBox.aboutBox2::before {
+.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2::before {
     content:'';
     position:absolute;
     width:4px;
@@ -817,85 +817,85 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     transform:translateX(-50%);
     background:red;
 }
-.aboutBoxs .aboutBox .aboutTitle {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
     font-size:24px;
     font-weight:700;
     margin-bottom:12px;
 }
-.aboutBoxs .aboutBox .aboutTitle i {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle i {
     color:#9C3C63;
 }
-.aboutBoxs .aboutBox .aboutInfo {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo {
     font-weight:700;
     display:flex;
     margin-left:16px;
 }
-.aboutBoxs .aboutBox .aboutInfo ul li {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li {
     margin-bottom:8px;
     font-variant-numeric: tabular-nums;
     font-size:17px;
 }
-.aboutBoxs .aboutBox .aboutInfo ul li:last-child {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li:last-child {
     margin-bottom:0;
 }
-.aboutBoxs .aboutBox .aboutInfo .infoLeft {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .infoLeft {
     float:left;
     text-align:right;
 }
-.aboutBoxs .aboutBox .aboutInfo .infoRight {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .infoRight {
     font-weight:500;
     float:left;
     margin-left:10px;
     color:#666666;
 }
-.aboutBoxs .aboutBox .aboutInfo.exp {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp {
     flex-direction:column;
 }
-.aboutBoxs .aboutBox .aboutInfo.exp ul.expTitle { 
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expTitle { 
     font-size:18px;
 }
-.aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo { 
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo { 
     margin-top:10px;
 }
-.aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo li {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li {
     display:flex;
     align-items:center;
     flex-wrap:wrap;
     margin-left:8px;
     color:#333333;
 }
-.aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo li span { 
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li span { 
     display:block; width:100%; margin-top:2px;
     font-size:14px; font-weight:500; color:#666666;
 }
-.aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo li i {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li i {
     color:#9C3C63;
     opacity:0.6;
     font-size:12px;
 }
-.aboutBoxs .aboutBox .aboutInfo.skill {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill {
     display:block;
     margin-left:0;
 }
-.aboutBoxs .aboutBox .aboutInfo.skill ul { 
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul { 
     margin-top:42px; display:grid; grid-template-columns:1fr 1fr 1fr 1fr; 
     grid-row-gap:32px;
  }
-.aboutBoxs .aboutBox .aboutInfo.skill ul li { 
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li { 
     align-self: center; justify-self: center; 
     padding-bottom:0;
     text-align:center;
     margin-bottom:0;
 }
-.aboutBoxs .aboutBox .aboutInfo.skill ul li img {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img {
     width:64px;
     border-radius:10px;
     overflow:hidden;
 }
-.aboutBoxs .aboutBox .aboutInfo.skill ul li .skillDot {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot {
     margin-top:2px;
 }
-.aboutBoxs .aboutBox .aboutInfo.skill ul li .skillDot p {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p {
     font-size:10px;
     color:#9C3C63;
 }
