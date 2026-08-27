@@ -752,14 +752,20 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 }
 .aboutBoxs .aboutBoxWrap .aboutIcon {
     position:absolute;
-    width:20px;
-    height:20px;
+    width:60px;
+    height:60px;
     top:20px;
     left:50%;
     transform:translateX(-50%);
     background:#00e5ff;
     border-radius:50%;
     z-index:10;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.aboutBoxs .aboutBoxWrap .aboutIcon img {
+    width:60%;
 }
 .aboutBoxs .aboutBox {
     width:95%;
