@@ -1346,7 +1346,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
 }
 @media screen and (max-width:900px) {
-    
+    .aboutBoxs {
+        margin-left:5%;
+    }
     .aboutBoxs::before {
         left:0;
     }
@@ -1360,6 +1362,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         left:0;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox {
+        width: calc(100% - 5% - 20px);
         justify-self: end;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2 {
