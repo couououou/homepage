@@ -791,42 +791,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:relative;
     z-index:5;
 }
-.triangle {
-    position:absolute;
-    width:24px;
-    height:24px;
-    right:0;
-    top:28px;
-    transform:translateX(50%) rotate(45deg);
-    background:blue;
-    z-index:-1;
-    border-radius:4px;
-}
-.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox1::after {
-    content:'';
-    position:absolute;
-    width:24px;
-    height:24px;
-    right:0;
-    top:28px;
-    transform:translateX(50%) rotate(45deg);
-    background:red;
-    z-index:-1;
-    border-radius:4px;
-}
 .aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2 { 
     grid-column:2;
     justify-self:end;
-}
-.aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2::after {
-    content:'';
-    position:absolute;
-    width:4px;
-    height:100%;
-    left:50%;
-    top:0;
-    transform:translateX(-50%);
-    background:red;
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
     font-size:24px;
