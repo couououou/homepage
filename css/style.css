@@ -1428,33 +1428,33 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs {
         gap:24px;
     }
-    .aboutBoxs .aboutBox { 
+    .aboutBoxs .aboutBoxWrap .aboutBox { 
         grid-column:span 6;
         padding:24px;
         border-radius:20px;
     }
-    .aboutBoxs .aboutBox .aboutTitle {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
         font-size:20px;
         margin-bottom:8px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo {
         margin-top:8px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.exp ul.expInfo li {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li {
         margin-left:6px;
     }
     .aboutBoxs .aboutBox.aboutBox2 { grid-column:span 6; }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul { 
         margin-top:28px;
         gap:24px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li img {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img {
         width:48px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li .skillDot p {
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p {
         font-size:6px;
     }
-    .aboutBoxs .aboutBox .aboutInfo ul li { 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
         margin-bottom:6px;
     }
 }
