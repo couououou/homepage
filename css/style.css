@@ -1352,6 +1352,10 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs::after {
         left:0;
     }
+
+    .aboutBoxs .aboutBoxWrap .aboutIcon {
+        left:0;
+    }
 }
 @media screen and (max-width:768px) {
     .wrap {
