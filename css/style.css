@@ -1244,13 +1244,13 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:28px;
     }
-    .aboutBoxs .aboutBox { grid-column:span 3; }
-    .aboutBoxs .aboutBox.aboutBox2.aboutBoxSkill { grid-column:span 6; }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul { grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li img { 
+    .aboutBoxs .aboutBoxWrap .aboutBox { grid-column:span 3; }
+    .aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2.aboutBoxSkill { grid-column:span 6; }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul { grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
         width:60px;
     }
-    .aboutBoxs .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
 }
 @media screen and (max-width:1024px) {
     nav { 
