@@ -1300,9 +1300,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:24px;
     }
-    .aboutBoxs .aboutBoxWrap { gap:32px; }
+    .aboutBoxs .aboutBoxWrap { gap:46px; }
+    .aboutBoxs .aboutBoxWrap .aboutIcon {
+        width:46px;
+        height:46px;
+        top:12px;
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-        padding:28px;
+        padding:24px 24px 32px;
         border-radius:22px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
@@ -1312,6 +1317,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo { 
         font-size:15px;
+        margin-left:12px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expTitle { font-size:16px;}
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
@@ -1319,11 +1325,12 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         margin-bottom:6px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul {
-        margin-top:34px;
+        grid-template-columns:1fr 1fr 1fr;
+        margin-top:28px;
         gap:28px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
-        width:56px;
+        width:52px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
 }
