@@ -732,6 +732,18 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     padding:40px 0;
     margin-top:40px;
 }
+.aboutBoxs::before {
+    content:'';
+    display:block;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:50%;
+    background:green;
+}
 .aboutBoxs::after {
     content: '';
     display: block;
@@ -742,6 +754,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     top: 50%;
     transform: translate(-50%, -50%);
     background:#8b5cf6;
+    border-radius:1000px;
 }
 .aboutBoxs .aboutBoxWrap {
     display: grid;
@@ -754,7 +767,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:absolute;
     width:60px;
     height:60px;
-    top:20px;
+    top:16px;
     left:50%;
     transform:translateX(-50%);
     background:#00e5ff;
