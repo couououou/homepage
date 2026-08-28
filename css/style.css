@@ -1515,10 +1515,10 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         margin-left:0;
      }
     .aboutBoxs::before {
-        left:15%;
+        left:10%;
     }
     .aboutBoxs::after {
-        left:15%;
+        left:10%;
     }
     .aboutBoxs .aboutBoxWrap .aboutIcon {
         display:none;
