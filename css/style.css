@@ -1513,6 +1513,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs { 
         gap:24px;
         margin-left:0;
+        margin-top:28px;
+        padding:24px 0;
      }
     .aboutBoxs::before {
         left:10%;
