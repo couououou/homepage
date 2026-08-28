@@ -760,14 +760,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 .aboutBoxs .aboutBoxWrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 60px;
     position: relative;
     z-index:10;
 }
 .aboutBoxs .aboutBoxWrap .aboutIcon {
     position:absolute;
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     top:16px;
     left:50%;
     transform:translateX(-50%);
