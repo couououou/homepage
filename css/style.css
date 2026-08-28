@@ -1526,6 +1526,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap .aboutBox { 
         border-radius:18px;
         width:100%;
+        padding: 18px 18px 24px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:18px;
