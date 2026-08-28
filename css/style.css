@@ -727,7 +727,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 .aboutBoxs {
     display:flex;
     flex-direction:column;
-    /* gap:32px; */
+    gap:40px;
     position:relative;
     padding:40px 0;
     margin-top:40px;
@@ -762,7 +762,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     grid-template-columns: 1fr 1fr;
     gap: 48px;
     position: relative;
-    margin-bottom:40px;
     z-index:10;
 }
 .aboutBoxs .aboutBoxWrap .aboutIcon {
