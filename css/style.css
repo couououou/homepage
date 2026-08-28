@@ -1431,7 +1431,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         width:18px;
     }
     .aboutBoxs {
-        gap:24px;
+        gap:28px;
     }
     .aboutBoxs::before {
         width:14px;
@@ -1510,9 +1510,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:14px;
     }
-    .aboutBoxs { gap:20px; }
+    .aboutBoxs { gap:24px; }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-        padding:22px;
+
         border-radius:18px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
