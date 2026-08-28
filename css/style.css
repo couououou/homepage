@@ -1220,6 +1220,12 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 
 }
 @media screen and (max-width:1280px) {
+    .wrap {
+        padding:0 32px;
+    }
+    .wrap2 {
+        padding:0 32px;
+    }
     .home {
         max-height:1024px;
         min-height:820px;
@@ -1302,17 +1308,18 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs {
         margin-top:32px;
         padding:32px 0;
+        gap:32px;
     }
     .aboutBoxs::before {
         width:16px;
         height:16px;
     }
     .aboutBoxs .aboutBoxWrap { 
-        gap:46px;
+        gap:48px;
     }
     .aboutBoxs .aboutBoxWrap .aboutIcon {
-        width:46px;
-        height:46px;
+        width:48px;
+        height:48px;
         top:12px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
