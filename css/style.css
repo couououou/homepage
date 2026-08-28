@@ -1433,9 +1433,12 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs {
         gap:24px;
     }
+    .aboutBoxs::before {
+        width:14px;
+        height:14px;
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-        grid-column:span 6;
-        padding:24px;
+        padding:20px 20px 28px;
         border-radius:20px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
@@ -1448,9 +1451,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li {
         margin-left:6px;
     }
-    .aboutBoxs .aboutBox.aboutBox2 { grid-column:span 6; }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul { 
-        margin-top:28px;
+        margin-top:24px;
         gap:24px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img {
