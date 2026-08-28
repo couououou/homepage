@@ -1521,7 +1521,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         display:none;
     }
     .aboutBoxs::after {
-        left:10%;
+        left:12%;
     }
     .aboutBoxs .aboutBoxWrap .aboutIcon {
         display:none;
