@@ -1510,10 +1510,22 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:14px;
     }
-    .aboutBoxs { gap:24px; }
+    .aboutBoxs { 
+        gap:24px;
+        margin-left:0;
+     }
+    .aboutBoxs::before {
+        left:15%;
+    }
+    .aboutBoxs::after {
+        left:15%;
+    }
+    .aboutBoxs .aboutBoxWrap .aboutIcon {
+        display:none;
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-
         border-radius:18px;
+        width:100%;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:18px;
