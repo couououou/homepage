@@ -952,7 +952,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 }
 .projectBoxs .projectBox ul li a .textBox p {
     display: inline-block;
-    font-size:18px; font-weight:700; color:#666;
+    font-size:16px; font-weight:700; color:#666;
 }
 
 @media screen and (max-width:2560px) {
@@ -1317,7 +1317,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         padding-bottom:0;
     }
     .projectBoxs .projectBox ul li a .textBox h5 {
-        font-size:22px;
+        font-size:24px;
     }
     .projectBoxs .projectBox ul li a .textBox {
         padding:16px 24px;
