@@ -811,7 +811,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li {
     margin-bottom:8px;
     font-variant-numeric: tabular-nums;
-    font-size:17px;
+    font-size:18px;
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li:last-child {
     margin-bottom:0;
@@ -947,12 +947,12 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     transition:all .3s ease-out;
 }
 .projectBoxs .projectBox ul li a .textBox h5 {
-    font-size:24px;
+    font-size:28px;
     font-weight:700;
 }
 .projectBoxs .projectBox ul li a .textBox p {
     display: inline-block;
-    font-size:17px; font-weight:700; color:#666;
+    font-size:18px; font-weight:700; color:#666;
 }
 
 @media screen and (max-width:2560px) {
