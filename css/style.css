@@ -804,7 +804,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     color:#9C3C63;
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo {
-    font-weight:normal;
+    font-weight:500;
     display:flex;
     margin-left:20px;
 }
@@ -822,7 +822,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     color:#666666;
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .infoRight {
-    font-weight:normal;
     float:left;
     margin-left:12px;
 }
