@@ -1529,7 +1529,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs { 
         gap:24px;
         margin-left:0;
-        margin-top:8px;
+        margin-top:0px;
         padding:16px 0;
      }
     .aboutBoxs::before {
