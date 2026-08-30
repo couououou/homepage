@@ -1311,9 +1311,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         margin-top:28px;
         gap:28px;
     }
-    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
-        width:52px;
-    }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
 
     /* project */
@@ -1431,18 +1428,18 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         height:14px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-        padding:20px 20px 28px;
+        padding:24px 24px 32px;
         border-radius:20px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
-        font-size:20px;
+        font-size:22px;
         margin-bottom:8px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo {
         margin-top:8px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo li {
-        margin-left:6px;
+        font-size:15px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul { 
         margin-top:24px;
