@@ -1330,10 +1330,10 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         height:48px;
         top:12px;
     }
-    .aboutBoxs .aboutBoxWrap .aboutBox { 
+    /* .aboutBoxs .aboutBoxWrap .aboutBox { 
         padding:24px 24px 32px;
         border-radius:22px;
-    }
+    } */
     /* .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:22px;
         margin-bottom:10px;
