@@ -1263,6 +1263,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         font-size:16px;
         margin-bottom:6px;
     }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expInfo {
+        margin-top:8px;
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
         width:60px;
     }
