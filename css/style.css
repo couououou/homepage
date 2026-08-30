@@ -1243,7 +1243,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         margin-bottom:24px;
     }
     .title h2 span {
-        font-size:38px;
+        font-size:36px;
         padding:0 6px;
     }
     .title h2 .titleBrace svg {
@@ -1253,7 +1253,15 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         top:14px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox {
-        padding: 28px 28px 36px;
+        padding:28px 28px 36px;
+    }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
+        font-size:24px;
+        margin-bottom:10px;
+    }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li {
+        font-size:16px;
+        margin-bottom:6px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { 
         width:60px;
@@ -1326,20 +1334,20 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         padding:24px 24px 32px;
         border-radius:22px;
     }
-    .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
+    /* .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:22px;
         margin-bottom:10px;
-    }
+    } */
 
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo { 
         font-size:15px;
         margin-left:12px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp ul.expTitle { font-size:16px;}
-    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
+    /* .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
         font-size:15px;
         margin-bottom:6px;
-    }
+    } */
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul {
         grid-template-columns:1fr 1fr 1fr;
         margin-top:28px;
