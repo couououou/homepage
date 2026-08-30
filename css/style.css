@@ -964,67 +964,13 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 
 }
 @media screen and (max-width:1280px) {
-    .project {
-        padding:120px 0;
-    }
-    .projectBoxs .projectBox ul {
-        gap:32px;
-    }
-    .projectBoxs .projectBox ul li a {
-        padding-bottom:32px;
-    }
-    .projectBoxs .projectBox ul li a .textBox {
-        padding:12px 24px;
-    }
+   
 }
 @media screen and (max-width:1024px) {
-    .project {
-        padding:100px 0;
-    }
-    .projectBoxs .projectBox ul {
-        gap:28px;
-        grid-template-columns: 1fr;
-    }
-    .projectBoxs .projectBox ul li a {
-        border-radius:22px;
-        padding-bottom:0;
-    }
-    .projectBoxs .projectBox ul li a .textBox h5 {
-        font-size:22px;
-    }
-    .projectBoxs .projectBox ul li a .textBox {
-        padding:16px 24px;
-    }
-    .projectBoxs .projectBox ul li a .textBox p {
-        font-size:15px;
-    }
-    .projectBoxs .projectBox ul li a:hover::after {
-        opacity:1;
-    }
-    .projectBoxs .projectBox ul li a:hover .textBox {
-        bottom:0%;
-    }
-    .projectBoxs .projectBox ul li a:hover .imgBox img {
-        transform: scale(1);
-    }
+    
     
 }
 @media screen and (max-width:768px) { 
-    .project {
-        padding:80px 0;
-    }
-    .projectBoxs .projectBox ul {
-        gap:24px;
-    }
-    .projectBoxs .projectBox ul li a {
-        border-radius:20px;
-    }
-    .projectBoxs .projectBox ul li a .textBox {
-        padding:12px 20px;
-    }
-    .projectBoxs .projectBox ul li a .textBox h5 {
-        font-size:20px;
-    }
 }
 @media screen and (max-width:640px) {
     .projectBoxs .projectBox ul li a {
@@ -1032,24 +978,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     }
 }
 @media screen and (max-width:480px) {
-    .project {
-        padding:60px 0;
-    }
-    .projectBoxs .projectBox ul {
-        gap:20px;
-    }
-    .projectBoxs .projectBox ul li a {
-        border-radius:18px;
-    }
-    .projectBoxs .projectBox ul li a .textBox {
-        padding:10px 18px;
-    }
-    .projectBoxs .projectBox ul li a .textBox h5 {
-        font-size:18px;
-    }
-    .projectBoxs .projectBox ul li a .textBox p {
-        font-size:14px;
-    }
+    
 }
 @media screen and (max-width:380px) { 
 }
@@ -1270,6 +1199,20 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         width:60px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
+
+    /* project */
+    .project {
+        padding:120px 0;
+    }
+    .projectBoxs .projectBox ul {
+        gap:32px;
+    }
+    .projectBoxs .projectBox ul li a {
+        padding-bottom:32px;
+    }
+    .projectBoxs .projectBox ul li a .textBox {
+        padding:12px 24px;
+    }
 }
 @media screen and (max-width:1024px) {
     nav { 
@@ -1360,6 +1303,37 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         width:52px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p { font-size:8px; }
+
+    /* project */
+    .project {
+        padding:100px 0;
+    }
+    .projectBoxs .projectBox ul {
+        gap:28px;
+        grid-template-columns: 1fr;
+    }
+    .projectBoxs .projectBox ul li a {
+        border-radius:22px;
+        padding-bottom:0;
+    }
+    .projectBoxs .projectBox ul li a .textBox h5 {
+        font-size:22px;
+    }
+    .projectBoxs .projectBox ul li a .textBox {
+        padding:16px 24px;
+    }
+    .projectBoxs .projectBox ul li a .textBox p {
+        font-size:15px;
+    }
+    .projectBoxs .projectBox ul li a:hover::after {
+        opacity:1;
+    }
+    .projectBoxs .projectBox ul li a:hover .textBox {
+        bottom:0%;
+    }
+    .projectBoxs .projectBox ul li a:hover .imgBox img {
+        transform: scale(1);
+    }
 }
 @media screen and (max-width:900px) {
     .aboutBoxs {
@@ -1475,6 +1449,23 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li { 
         margin-bottom:6px;
     }
+
+    /* projcet */
+    .project {
+        padding:80px 0;
+    }
+    .projectBoxs .projectBox ul {
+        gap:24px;
+    }
+    .projectBoxs .projectBox ul li a {
+        border-radius:20px;
+    }
+    .projectBoxs .projectBox ul li a .textBox {
+        padding:12px 20px;
+    }
+    .projectBoxs .projectBox ul li a .textBox h5 {
+        font-size:20px;
+    }
 }
 @media screen and (max-width:580px) {
     .aboutBoxs .aboutBox .aboutInfo.skill ul { 
@@ -1562,4 +1553,24 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { width:50px;}
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot { margin-top:0; }
+
+    /* project */
+    .project {
+        padding:60px 0;
+    }
+    .projectBoxs .projectBox ul {
+        gap:20px;
+    }
+    .projectBoxs .projectBox ul li a {
+        border-radius:18px;
+    }
+    .projectBoxs .projectBox ul li a .textBox {
+        padding:10px 18px;
+    }
+    .projectBoxs .projectBox ul li a .textBox h5 {
+        font-size:18px;
+    }
+    .projectBoxs .projectBox ul li a .textBox p {
+        font-size:14px;
+    }
 }
