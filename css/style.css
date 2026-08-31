@@ -1217,6 +1217,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         gap:32px;
     }
     .projectBoxs .projectBox ul li a {
+        border-radius:24px;
         padding-bottom:32px;
     }
     .projectBoxs .projectBox ul li a .textBox {
@@ -1322,7 +1323,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         grid-template-columns: 1fr;
     }
     .projectBoxs .projectBox ul li a {
-        border-radius:22px;
         padding-bottom:0;
     }
     
@@ -1430,7 +1430,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
         padding:24px 24px 32px;
-        border-radius:20px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
         font-size:20px;
@@ -1471,7 +1470,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         gap:28px;
     }
     .projectBoxs .projectBox ul li a {
-        border-radius:20px;
     }
     .projectBoxs .projectBox ul li a .textBox {
         padding:14px 20px;
@@ -1545,9 +1543,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         display:none;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-        border-radius:18px;
+        border-radius:16px;
         width:100%;
-        padding: 20px 18px 24px;
+        padding: 20px 20px 24px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:18px;
@@ -1578,7 +1576,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         gap:24px;
     }
     .projectBoxs .projectBox ul li a {
-        border-radius:12px;
+        border-radius:16px;
     }
     .projectBoxs .projectBox ul li a .textBox {
         padding:12px 18px;
