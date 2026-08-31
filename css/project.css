@@ -1521,7 +1521,7 @@ html, body {
         grid-template-columns:repeat(1,1fr);
     }
     .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
-        margin:0 6px 10px;
+        margin:0 10px 6px;
     }
 
 }
