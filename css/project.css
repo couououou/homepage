@@ -922,8 +922,8 @@ html, body {
     width:80%;
 }
 .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box {
-    
-}
+   margin-top:12px; 
+}  
 .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box h4 { 
     margin:16px 0 0 12px;
 }
@@ -1315,6 +1315,9 @@ html, body {
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box img {
         width:60%;
     }
+    .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box {
+        margin-top:8px;
+    }
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_error {
         grid-template-columns:1.5fr 1fr;
     }
@@ -1340,6 +1343,7 @@ html, body {
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_font .detail_box .img_box img {
         width:80%;
     }
+    
     .weather .project_feature_wrap {
         padding:100px 0;
     }
@@ -1396,10 +1400,6 @@ html, body {
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
         padding:28px;
     }
-    .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box h4 {
-        margin:10px 0 0 6px
-    }
-
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_error {
         grid-template-columns:1fr;
     }
@@ -1481,8 +1481,8 @@ html, body {
         width:50%;
     }
 
-    .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box h4 {
-        margin:8px 0 0 6px;
+    .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box {
+        margin-top:6px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_color {
         width:100%;
