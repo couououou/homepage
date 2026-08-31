@@ -1416,8 +1416,8 @@ html, body {
         justify-self:end;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
-        flex: 1;
-        min-width: 0;
+        max-width:510px;
+        width:100%;
     }
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) .text_box {
         text-align:left;
