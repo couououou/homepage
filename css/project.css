@@ -410,6 +410,9 @@ html, body {
         width:60%;
         padding-right:8px;
     }
+    .project_info .project_info_text p {
+        font-size:16px;
+    }
     .project_info_right_1st .project_info_box:first-child {
         width:25%;
     }
@@ -497,7 +500,6 @@ html, body {
         height: 30px;
     }
     .project_info .project_info_text h5 {
-        font-size:22px;
     }
     .project_info .project_info_text p {
         font-size:15px; 
