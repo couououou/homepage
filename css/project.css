@@ -1206,12 +1206,13 @@ html, body {
     }
     .weather .project_feature_wrap .project_feature .feature_box {
         display:flex;
+        gap:2.4vw;
     }
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) {
         flex-direction:row-reverse;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
-        width:45%;
+        width:calc(50% - 1.2vw);
         padding:3.2vw 0;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
@@ -1219,8 +1220,7 @@ html, body {
     }
         
     .weather .project_feature_wrap .project_feature .feature_box .text_box {
-        width:55%;
-        padding:0px 0 0 2.4vw;
+        width:calc(50% - 1.2vw);
     }
 
     .weather .project_preview_wrap .project_preview { 
