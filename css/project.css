@@ -1165,9 +1165,6 @@ html, body {
     .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
         margin: 0 0 6px 12px;
     }
-    .project_preview_pc_wrap .project_preview .img_item .img_box {
-        border-radius:20px;
-    }
 }
 
 @media screen and (max-width:1024px) {
