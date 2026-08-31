@@ -949,7 +949,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     transition:all .3s ease-out;
 }
 .projectBoxs .projectBox ul li a .textBox h5 {
-    font-size:28px;
+    font-size:24px;
     font-weight:700;
 }
 .projectBoxs .projectBox ul li a .textBox p {
@@ -1221,7 +1221,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         padding:12px 24px;
     }
     .projectBoxs .projectBox ul li a .textBox h5 {
-        font-size:24px;
     }
     .projectBoxs .projectBox ul li a .textBox p {
         font-size:15px;
