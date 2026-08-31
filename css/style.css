@@ -825,6 +825,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     float:left;
     margin-left:12px;
 }
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.educBox .infoLeft {
+    color:#333;
+}
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.exp {
     flex-direction:column;
 }
