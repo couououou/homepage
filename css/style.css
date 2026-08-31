@@ -1319,7 +1319,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     }
    
     .projectBoxs .projectBox ul li a .textBox {
-        padding:16px 24px;
+        padding:20px 24px;
     }
     
     .projectBoxs .projectBox ul li a:hover::after {
@@ -1464,7 +1464,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .projectBoxs .projectBox ul li a {
     }
     .projectBoxs .projectBox ul li a .textBox {
-        padding:14px 20px;
+        padding:16px 20px;
     }
     .projectBoxs .projectBox ul li a .textBox h5 {
         font-size:20px;
@@ -1572,7 +1572,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         padding-bottom:16px;
     }
     .projectBoxs .projectBox ul li a .textBox {
-        padding:8px 18px;
+        padding:12px 18px;
     }
     .projectBoxs .projectBox ul li a .textBox h5 {
         font-size:18px;
