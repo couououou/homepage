@@ -1012,7 +1012,7 @@ html, body {
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    aspect-ratio: 16 / 9;
+    /* aspect-ratio: 16 / 9; */
 }
 .weather .project_feature_wrap .project_feature .feature_box .img_box img { 
     width:60%;
