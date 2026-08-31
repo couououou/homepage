@@ -1057,7 +1057,7 @@ html, body {
 .weather .project_preview_wrap .project_preview .project_preview_content .img_box {}
 .weather .project_preview_wrap .project_preview .project_preview_content .img_box img {}
 .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
-    margin:0 0 16px 12px; 
+    margin:0 14px 12px; 
 }
 .weather .project_preview_wrap .project_preview .project_preview_content .text_box h6 {
 
