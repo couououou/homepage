@@ -1012,7 +1012,7 @@ html, body {
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    /* aspect-ratio: 16 / 9; */
+    aspect-ratio: 16 / 9;
 }
 .weather .project_feature_wrap .project_feature .feature_box .img_box img { 
     width:60%;
@@ -1194,7 +1194,7 @@ html, body {
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_font { 
         grid-template-columns:1fr 1fr 2fr ;
         left:0px;
-        margin-top:24px;
+        margin-top:32px;
     }
     .weather .project_feature_wrap {
         
@@ -1202,7 +1202,7 @@ html, body {
     .weather .project_feature_wrap .project_feature {
         grid-template-columns:1fr;
         grid-template-rows:repeat(3, 1fr);
-        gap:60px;
+        gap:56px;
     }
     .weather .project_feature_wrap .project_feature .feature_box {
         display:flex;
@@ -1302,7 +1302,7 @@ html, body {
 
     .weather .project_detail_wrap .project_detail {
         display:grid;
-        gap:52px;
+        gap:48px;
     }
 
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box.ratio_1by1 {
@@ -1345,7 +1345,7 @@ html, body {
         padding:100px 0;
     }
     .weather .project_feature_wrap .project_feature {
-        gap:52px;
+        gap:48px;
         align-items:start;
         grid-template-rows:auto;
     }
@@ -1470,7 +1470,7 @@ html, body {
         padding-bottom:80px;
     }
     .weather .project_detail_wrap .project_detail { 
-        gap:40px;
+        gap:32px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain {
         width:100%;
@@ -1498,7 +1498,7 @@ html, body {
         padding:80px 0;
     }
     .weather .project_feature_wrap .project_feature {
-        gap:40px;
+        gap:32px;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
         border-radius:16px;
