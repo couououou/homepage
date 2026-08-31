@@ -1481,7 +1481,7 @@ html, body {
     }
 
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box {
-        margin-top:10px 6px 0 6px;
+        margin:10px 6px 0 6px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_color {
         width:100%;
