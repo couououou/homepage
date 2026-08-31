@@ -1164,8 +1164,8 @@ html, body {
     }
     .weather .project_preview_wrap .project_preview {
         grid-template-columns:repeat(2, 1fr);
-        column-gap:18%;
-        width:90%;
+        column-gap:12%;
+        width:80%;
         --translateY:140px;
     }
 }
