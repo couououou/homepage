@@ -1522,7 +1522,7 @@ html, body {
     .weather .project_preview_wrap .project_preview {
         column-gap:5%;
         --translateY:0px;
-        width:95%;
+        width:90%;
         grid-template-columns:repeat(1,1fr);
     }
     .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
