@@ -975,9 +975,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 @media screen and (max-width:768px) { 
 }
 @media screen and (max-width:640px) {
-    .projectBoxs .projectBox ul li a {
-        padding-bottom:24px;
-    }
+
 }
 @media screen and (max-width:480px) {
     
