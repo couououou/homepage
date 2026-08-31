@@ -1367,13 +1367,13 @@ html, body {
     }
     .weather .project_feature_wrap .project_feature .feature_box .text_box {
         width:100%;
-        padding:12px 8px 0 8px;
+        padding:16px 8px 0;
     }
     .weather .project_feature_wrap .project_feature .feature_box .text_box h5 {
         margin-bottom:4px;
     }
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) .text_box {
-        padding:12px 8px 0 8px;
+        padding:12px 8px 0;
         text-align:right;
     }
 
