@@ -1161,7 +1161,7 @@ html, body {
     }
     .weather .project_preview_wrap .project_preview {
         grid-template-columns:repeat(2, 1fr);
-        column-gap:20%;
+        column-gap:18%;
         width:90%;
         --translateY:140px;
     }
@@ -1224,6 +1224,7 @@ html, body {
 
     .weather .project_preview_wrap .project_preview { 
         --translateY:120px;
+        column-gap: 12%;
     }
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) .text_box {
         padding:0 2.4vw 0 0;
@@ -1422,7 +1423,9 @@ html, body {
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) .text_box {
         text-align:left;
     }
-
+    .weather .project_preview_wrap .project_preview {
+        width:100%;
+    }
     
 
 }
