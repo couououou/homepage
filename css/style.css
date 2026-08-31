@@ -1441,17 +1441,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         gap:24px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li {
-        margin-bottom:5px;
+        font-size:15px;
+        margin-bottom:6px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img {
         width:48px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p {
         font-size:6px;
-    }
-    .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li {
-        font-size:15px;
-        margin-bottom:6px;
     }
 
     /* projcet */
