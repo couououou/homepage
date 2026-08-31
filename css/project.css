@@ -1351,6 +1351,7 @@ html, body {
     }
     .weather .project_feature_wrap .project_feature .feature_box {
         flex-direction:column;
+        gap:0;
     }
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) {
         flex-direction:column;
@@ -1360,6 +1361,7 @@ html, body {
         width:80%;
         padding:8vw 0;
     }
+
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
         width:50%;
         max-width:300px;
