@@ -1316,7 +1316,7 @@ html, body {
         width:60%;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box {
-        margin-top:10px;
+        margin:12px 8px 0 8px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_error {
         grid-template-columns:1.5fr 1fr;
@@ -1481,7 +1481,7 @@ html, body {
     }
 
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .text_box {
-        margin-top:8px;
+        margin-top:10px 6px 0 6px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_color {
         width:100%;
@@ -1505,10 +1505,10 @@ html, body {
         /* width:40%; */
     }
     .weather .project_feature_wrap .project_feature .feature_box .text_box {
-        padding:8px 6px 0 6px;
+        padding:10px 6px 0 6px;
     }
     .weather .project_feature_wrap .project_feature .feature_box:nth-child(2n) .text_box {
-        padding:8px 6px 0 6px;
+        padding:10px 6px 0 6px;
     }
     .weather .project_feature_wrap .project_feature .feature_box .text_box h5 {
         margin-bottom:2px;
