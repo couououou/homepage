@@ -295,7 +295,7 @@ html, body {
 .project_preview_mobile_wrap .project_preview .img_item .img_box { 
     width:100%;
     border:3px solid var(--border_color, #f2f2f2);
-    border-radius:20px;
+    border-radius:24px;
 }
 .project_preview_mobile_wrap .project_preview .img_item .img_box img { }
 /* //preview   */
@@ -446,7 +446,9 @@ html, body {
     .project_preview_pc_wrap .project_preview .img_item.pc-column-1 {
         transform:translateY(var(--translateY));
     }
-
+    .project_preview_pc_wrap .project_preview .img_item .img_box {
+        border-radius:20px;
+    }
     .project_preview_mobile_wrap .project_preview {
         --translateY:140px;
     }
@@ -1151,7 +1153,9 @@ html, body {
     .weather .project_feature_wrap .project_feature {
         gap:32px;
     }
-
+    .weather .project_feature_wrap .project_feature .feature_box .img_box {
+        border-radius:20px;
+    }
     .weather .project_preview_wrap .project_preview {
         grid-template-columns:repeat(2, 1fr);
         column-gap:10%;
@@ -1160,6 +1164,9 @@ html, body {
     }
     .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
         margin: 0 0 6px 12px;
+    }
+    .project_preview_pc_wrap .project_preview .img_item .img_box {
+        border-radius:20px;
     }
 }
 
@@ -1183,7 +1190,6 @@ html, body {
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
         padding:24px;
-        border-radius:20px;
     }
 
 
@@ -1223,7 +1229,6 @@ html, body {
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
         width:45%;
         padding:3.2vw 0;
-        border-radius:20px;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
         width:70%;
@@ -1360,7 +1365,6 @@ html, body {
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
         width:80%;
         padding:8vw 0;
-        border-radius:18px;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
         width:50%;
