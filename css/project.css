@@ -1165,9 +1165,6 @@ html, body {
         width:90%;
         --translateY:140px;
     }
-    .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
-        margin: 0 0 6px 12px;
-    }
 }
 
 @media screen and (max-width:1024px) {
@@ -1384,6 +1381,9 @@ html, body {
         --translateY:100px;
         column-gap:7.5%;
     }
+    .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
+        margin:0 12px 8px;
+    }
 }
 @media screen and (max-width:580px) { 
 
@@ -1520,7 +1520,9 @@ html, body {
         width:95%;
         grid-template-columns:repeat(1,1fr);
     }
-
+    .weather .project_preview_wrap .project_preview .project_preview_content .text_box {
+        margin:0 6px 10px;
+    }
 
 }
 
