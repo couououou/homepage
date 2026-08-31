@@ -1213,7 +1213,6 @@ html, body {
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
         width:calc(50% - 1.2vw);
-        padding:3.2vw 0;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
         width:70%;
@@ -1359,7 +1358,6 @@ html, body {
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
         width:80%;
-        padding:8vw 0;
     }
 
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
@@ -1500,7 +1498,6 @@ html, body {
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box {
         border-radius:16px;
-        padding:12vw 0;
         width:100%;
     }
     .weather .project_feature_wrap .project_feature .feature_box .img_box img {
