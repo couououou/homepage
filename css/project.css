@@ -927,18 +927,18 @@ html, body {
 }
 
 .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_error {
-    grid-template-columns:1fr 1.5fr 1fr 1fr;
+    grid-template-columns:1fr 1.5fr 1fr 1fr 1fr;
 }
 .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_error .detail_box {
     grid-column-start:2;
 }
 
 .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_sun {
-    grid-template-columns:1fr 1fr 1fr 1.5fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1.5fr;
     margin-top:-180px;
 }
 .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_sun .detail_box { 
-    grid-column-start:4;
+    grid-column-start:5;
 }
 
 .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_color {
