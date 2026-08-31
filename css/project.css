@@ -1125,6 +1125,7 @@ html, body {
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
         padding:32px;
+        border-radius:20px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_error {
         grid-template-columns:1.5fr 1fr 1.5fr;
@@ -1312,9 +1313,7 @@ html, body {
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box.ratio_1by1 {
         aspect-ratio: 16 / 9;
     }
-    .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
-        border-radius:18px;
-    }
+
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box img {
         width:60%;
     }
