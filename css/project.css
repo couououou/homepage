@@ -1093,6 +1093,9 @@ html, body {
 }
 
 @media screen and (max-width:1280px) {
+    .weather p {
+        font-size:16px;
+    }
     .weather .project_visual {
         height:auto;
         padding:56px 0;
@@ -1168,20 +1171,7 @@ html, body {
 }
 
 @media screen and (max-width:1024px) {
-    .weather h4 {
-        font-size:24px;
-    }
-    .weather h5 { 
-        font-size:22px;
-    }
-    .weather h6 {
-        font-size:18px;
-    }
-    .weather p {
-        font-size:15px;
-    }
-
-    .weather .project_detail_wrap {
+        .weather .project_detail_wrap {
         padding-top:140px;
         padding-bottom:140px;
     }
@@ -1249,6 +1239,12 @@ html, body {
     }
     .weather h5 { 
         font-size:20px;
+    }
+    .weather h6 {
+        font-size:18px;
+    }
+    .weather p {
+        font-size:15px;
     }
 
     .weather .project_detail_wrap {
