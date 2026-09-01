@@ -786,6 +786,9 @@ html, body {
         --translateY:80px;
         width:95%;
     }
+    .project_preview_mobile_wrap .project_preview .img_item .img_box {
+        border-radius:10px;
+    }
     .law .project_preview_mobile_wrap .project_preview { 
         padding-bottom:var(--translateY);
     }
