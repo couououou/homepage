@@ -396,6 +396,7 @@ html, body {
     }
     .project_info_text_wrap {
         flex-wrap:wrap;
+        gap:24px;
     }
     .project_info_text_wrap .project_info_left {
         width:calc(100%); margin-right:0;
@@ -511,6 +512,7 @@ html, body {
 
     .project_info_text_wrap {
         flex-wrap:wrap;
+        gap:12px;
     }
     .project_info_text_wrap .project_info_left {
         width:calc(100%); margin-right:0;
@@ -628,7 +630,7 @@ html, body {
     /* project_info */
     .project_info_right_1st {
         flex-wrap:wrap;
-        margin-top:22px;
+        margin-top:24px;
     }
     .project_info_right_1st .project_info_box {
         padding:0 4px;
@@ -649,7 +651,7 @@ html, body {
         margin-bottom:4px;
     }
     .project_info_right_2nd {
-        margin-top:18px;
+        margin-top:24px;
     }
     .project_info_right_2nd .project_info_box p:first-child {
         margin-bottom:6px;
