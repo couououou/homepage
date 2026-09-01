@@ -739,6 +739,9 @@ html, body {
     .project_info .project_info_text p {
         font-size:14px;
     }
+    .project_info_text_wrap {
+        gap:4px;
+    }
     .project_info_right_1st {
         margin-top:8px;
     }
