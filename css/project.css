@@ -775,14 +775,14 @@ html, body {
         padding:80px 0;
     }
     .project_preview_pc_wrap .project_preview {
-        width:95%;
+        width:85%;
     }
     .project_preview_pc_wrap .project_preview .img_item .img_box {
         border-radius:16px;
     }
 
     .project_preview_mobile_wrap .project_preview {
-        column-gap:5%;
+        column-gap:6%;
         --translateY:80px;
         width:95%;
     }
