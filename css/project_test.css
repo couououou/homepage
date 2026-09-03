@@ -7,12 +7,22 @@
 .weather .project_visual .project_info .project_info_content  {
     justify-content:center;
     gap:5%;
+    align-items: center;
 }
 .weather .project_visual .project_info .project_info_content .project_info_text_wrap {
     width:50%;
 }
+.weather .project_visual .project_info .project_info_content .project_info_text p {
+    font-size: 18px;
+    color: #666;
+    letter-spacing: 30%;
+    font-weight: 500;
+}
 .weather .project_visual .project_info .project_info_content .project_visual_img {
     width:50%;
+}
+.weather .project_visual .project_info .project_info_content .project_visual_img img {
+    width:70%;
 }
 
 @media screen and (max-width:1920px) {
