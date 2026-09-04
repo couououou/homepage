@@ -1,10 +1,6 @@
 @charset "UTF-8";
 .project_info_title { margin-bottom:28px;}
-.linkBox { 
-    width:20px;
-    height:20px;
-    fill:red;
-}
+
 .project_info .project_info_text h2 { 
     font-size:60px;
     letter-spacing:5%;
