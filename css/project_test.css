@@ -9,6 +9,36 @@
     font-size:60px;
     letter-spacing:5%;
 }
+
+.linkBox { 
+      border: none;
+    border-radius: 301111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:16px 32px;
+    gap: 7px;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient( to right,#8be3fc,#576bff);
+    box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-size:18px;
+}
+.linkBox .linkTage {
+    display:flex;
+    gap:12px;
+}
+.linkBox .linkTage svg {
+    width:10px;
+    height:10px;
+    fill:red;
+}
+.linkBox .linkTage span {
+    font-size:16px;
+    letter-spacing:2%;
+}
 .weather .project_visual .project_visual_content {
     align-items:center;
     justify-content:center;
