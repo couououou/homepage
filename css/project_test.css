@@ -16,7 +16,7 @@
     font-size: 18px;
     color: #25252Ca6;
     letter-spacing: 30%;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom:-4px;
 }
 .weather .project_visual .project_info .project_info_content .project_visual_img {
@@ -47,6 +47,10 @@
     border-radius:50%;
     background:#999;
     transform:translate(-50%, -50%);
+}
+.weather .project_visual .project_info .project_info_content .project_info_text_wrap ul li:last-child {
+    padding-right:0;
+    margin-right:0;
 }
 .weather .project_visual .project_info .project_info_content .project_info_text_wrap ul li:last-child::after {
     display:none;
