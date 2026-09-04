@@ -14,10 +14,10 @@
 }
 .weather .project_visual .project_info .project_info_content .project_info_text p {
     font-size: 18px;
-    color: #666;
+    color: #25252Ca6;
     letter-spacing: 30%;
     font-weight: 500;
-    margin-bottom:-6px;
+    margin-bottom:-4px;
 }
 .weather .project_visual .project_info .project_info_content .project_visual_img {
     width:50%;
