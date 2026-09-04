@@ -14,7 +14,7 @@
 }
 .weather .project_visual .project_info .project_info_content .project_info_text p {
     font-size: 18px;
-    color: #25252CB3;
+    color: #25252C;
     letter-spacing: 30%;
     font-weight: 300;
     margin-bottom:-4px;
@@ -28,12 +28,12 @@
 .weather .project_visual .project_info .project_info_content .project_info_text_wrap ul {
     display:flex;
     font-size:18px;
-    color:#25252CD9;
+    color:#25252CE6;
     font-weight:500;
 }
 .weather .project_visual .project_info .project_info_content .project_info_text_wrap ul li {
-    padding-right:16px;
-    margin-right:16px;
+    padding-right:20px;
+    margin-right:20px;
     position:relative;
 }
 .weather .project_visual .project_info .project_info_content .project_info_text_wrap ul li::after {
@@ -45,7 +45,7 @@
     width:4px;
     height:4px;
     border-radius:50%;
-    background:#25252CD9;
+    background:#25252C99;
     transform:translate(-50%, -50%);
 }
 .weather .project_visual .project_info .project_info_content .project_info_text_wrap ul li:last-child {
