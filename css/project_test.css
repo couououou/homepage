@@ -5,9 +5,9 @@
     font-size:60px;
     letter-spacing:5%;
 }
-
+.project_info_title { margin-bottom:22px;}
 .linkBox { 
-      border: none;
+    width:fit-content;
     border-radius: 301111px;
     display: flex;
     align-items: center;
@@ -15,12 +15,13 @@
     padding:16px 32px;
     gap: 7px;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     background: linear-gradient( to right,#8be3fc,#576bff);
     box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    font-size:18px;
+    font-size:15px;
+    margin-top:80px;
 }
 .linkBox .linkTag {
     display:flex;
