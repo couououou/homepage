@@ -62,18 +62,6 @@ html, body {
         repeating-linear-gradient(-45deg, rgba(42, 77, 118, 0.5) 0%, rgba(50, 90, 140, 0.4) 5%, transparent 5%, transparent 10% );
     background-color: rgba(42, 77, 118, 0.5); */
 }
-.signal .project_visual {
-    /* 043D80 */
-    background: linear-gradient(135deg, #043D80 10%, transparent),
-        repeating-linear-gradient( 45deg, rgba(4, 61, 128, 0.9) 0%, rgba(20, 90, 170, 0.5) 5%, transparent 5%, transparent 10% ),
-        repeating-linear-gradient(-45deg, rgba(4, 61, 128, 0.5) 0%, rgba(15, 70, 140, 0.4) 5%, transparent 5%, transparent 10% ); 
-    background-color: rgba(4, 61, 128, 0.3);
-    /* 92AAFA */
-    /* background: linear-gradient(135deg, #92AAFA 10%, transparent),
-        repeating-linear-gradient(45deg, rgba(146, 170, 250, 0.8) 0%, rgba(180, 200, 255, 0.5) 5%, transparent 5%, transparent 10% ),
-        repeating-linear-gradient(-45deg, rgba(146, 170, 250, 0.5) 0%, rgba(200, 215, 255, 0.4) 5%, transparent 5%, transparent 10% );
-    background-color: rgba(146, 170, 250, 0.5); */
-}
 
 .project_visual_wrap { }
 .project_visual_wrap .project_visual {
