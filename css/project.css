@@ -149,7 +149,9 @@ html, body {
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li:last-child::after {
     display:none;
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {}
+.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {
+    margin-top:80px;
+}
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
     display:flex;
     gap:8px;
