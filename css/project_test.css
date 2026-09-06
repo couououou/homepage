@@ -21,36 +21,32 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     font-size:15px;
-    margin-top:68px; */
+     */
+    margin-top:80px;
 }
 
-.linkBox:hover {
-  box-shadow: none;
-  transform: translate(0px, 2.2px);
-}
-.linkBox:active {
-  transform: scale(0.96) translate(0px, 3.2px);
-}
 .linkBox .linkTag {
     display:flex;
     gap:8px;
-    align-items:center;
-
-    width:fit-content;
-    border-radius: 301111px;
-    display: flex;
     align-items: center;
     justify-content: center;
+    width:fit-content;
     padding:16px 36px;
-    gap: 7px;
+    border-radius: 99999px;
+    font-size:15px;
     color: #fff;
     font-weight: 500;
     background: linear-gradient( to right,#8be3fc,#576bff);
     box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    font-size:15px;
-    margin-top:68px;
+}
+.linkBox .linkTag:hover {
+  box-shadow: none;
+  transform: translate(0px, 2.2px);
+}
+.linkBox .linkTag:active {
+  transform: scale(0.96) translate(0px, 3.2px);
 }
 .linkBox .linkTag svg {
     width:17px;
