@@ -84,7 +84,9 @@ html, body {
 .law .project_visual_wrap .project_visual { }
 .hwasung .project_visual_wrap .project_visual { }
 .major .project_visual_wrap .project_visual { }
-.signal .project_visual_wrap .project_visual { }
+.signal .project_visual_wrap .project_visual {
+    background:linear-gradient( 135deg, #bcd2ff 0%, #92aafa 35%, #6883d0 60%, #3e5fa7 80%, #043d80 100% );
+}
 .weather .project_visual_wrap .project_visual { }
 
 
