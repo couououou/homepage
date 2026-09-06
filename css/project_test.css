@@ -28,6 +28,9 @@
   box-shadow: none;
   transform: translate(0px, 2.2px);
 }
+.linkBox:active {
+  transform: scale(0.96) translate(0px, 3.2px);
+}
 .linkBox .linkTag {
     display:flex;
     gap:8px;
