@@ -98,6 +98,7 @@ html, body {
 
 
 .project_visual_wrap .project_visual .project_visual_info { 
+    display:flex;
     justify-content:center;
     gap:5%;
     align-items: center;
