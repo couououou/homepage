@@ -100,17 +100,20 @@ html, body {
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title { 
     margin-bottom:28px;
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.subTitle {
+.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title {
     font-size: 18px;
     color: #25252C;
     letter-spacing: 30%;
     font-weight: 300;
-    margin-bottom:-4px;
+    margin-bottom: -4px;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title h2 {
     font-size:60px;
     letter-spacing:5%;
     color:#25252C;
+    width: fit-content;
+    white-space: nowrap;
+    font-weight: 700;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo {}
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul {
