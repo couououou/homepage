@@ -86,16 +86,14 @@ html, body {
     display:flex;
     justify-content:center;
     gap:5%;
-    align-items: center;
-    height:80vh;
+    align-items:flex-end;
+    height:70vh;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text {
     width:35%;
     display:flex;
     flex-direction:column;
-    align-self:flex-end;
     margin-bottom:5%;
-    /* padding:5% 0 0 5%; */
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title { 
     margin-bottom:28px;
