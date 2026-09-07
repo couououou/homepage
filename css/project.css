@@ -82,6 +82,8 @@ html, body {
     mask-size:cover;
     mask-repeat:no-repeat;
     mask-position:right center;
+
+    background-color:red;
 }
 .law .project_visual_wrap .project_visual { }
 .hwasung .project_visual_wrap .project_visual { }
