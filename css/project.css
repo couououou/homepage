@@ -81,7 +81,7 @@ html, body {
     mask-image: url('../img/portfolio/background.png');
     mask-size:cover;
     mask-repeat:no-repeat;
-    mast-position:right center;
+    mask-position:right center;
 }
 .law .project_visual_wrap .project_visual { }
 .hwasung .project_visual_wrap .project_visual { }
