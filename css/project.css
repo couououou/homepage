@@ -437,7 +437,7 @@ html, body {
         padding-right:40px; 
     }
     .project_visual { 
-        height:clamp(972px, 90vh, 1080px);
+    
     }
 }
 @media screen and (max-width:1600px) {
