@@ -159,9 +159,11 @@ html, body {
     transform:translate(-50%, -50%);
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li:last-child {
-    display:none;
     padding-right:0;
     margin-right:0;
+}
+.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li:last-child::after {
+    display:none;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {
     margin-top:80px;
@@ -450,6 +452,9 @@ html, body {
         margin-bottom:0; 
         align-self: flex-start;
         width:100%;
+    }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {
+        margin-top:60px;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li {
         padding-right:18px;
