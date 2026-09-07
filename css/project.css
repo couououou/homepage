@@ -83,7 +83,7 @@ html, body {
     mask-repeat:no-repeat;
     mask-position:right center;
 
-    background-color:red;
+    background-color:#043d80;
     z-index:-1;
     opacity:0.3;
 }
