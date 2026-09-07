@@ -170,12 +170,6 @@ html, body {
     background:#a6a6a6;
     cursor:not-allowed;
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable .link_svg {
-    display:none;
-} 
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable .disable_link_svg {
-    display:block;
-}
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a svg {
     width:18px;
     height:18px;
