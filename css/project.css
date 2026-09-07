@@ -428,7 +428,7 @@ html, body {
 
 @media screen and (max-width:2100px) {
     .project_visual { 
-        height:clamp(1026px, 95vh, 1240px);
+        
     }
 }
 @media screen and (max-width:1920px) {
