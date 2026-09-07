@@ -100,7 +100,7 @@ html, body {
     margin-bottom:28px;
     color:#25252C;
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.up_title {
+.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title {
     font-size: 18px;
     
     letter-spacing: 30%;
@@ -115,10 +115,7 @@ html, body {
     white-space: nowrap;
     font-weight: 700;
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title {
-    font-size:24px;
-    font-weight:500;
-}
+
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo {}
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul {
     display:flex;
