@@ -74,7 +74,7 @@ html, body {
 .major .project_visual_wrap .project_visual { }
 .signal .project_visual_wrap .project_visual {
     background:linear-gradient( 135deg, #bcd2ff 0%, #92aafa 35%, #6883d0 60%, #3e5fa7 80%, #043d80 100% );
-    background-image: url('../img/project/background.png');
+    background-image: url('../img/portfolio/background.png');
 }
 .weather .project_visual_wrap .project_visual { }
 
