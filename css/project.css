@@ -80,17 +80,18 @@ html, body {
 
 
 .project_visual_wrap .project_visual .project_visual_info_wrap  {
-    
+    height:70vh;
+    display:flex;
+    justify-content:space-around;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info { 
     display:flex;
     justify-content:center;
     gap:2%;
     align-items:flex-end;
-    height:70vh;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text {
-    width:35%;
+    width:40%;
     display:flex;
     flex-direction:column;
     margin-bottom:5%;
@@ -187,7 +188,7 @@ html, body {
 }
 
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
-    width:65%;
+    width:60%;
     display: flex;
     justify-content: flex-end;
 }
