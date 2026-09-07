@@ -67,14 +67,27 @@ html, body {
 .project_visual_wrap .project_visual {
     display:flex;
     align-items:center;
+    position:relative;
 }
+.project_visual_wrap .project_visual::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
 
+    mask-image: url('../img/portfolio/background.png');
+    mask-size:cover;
+    mask-repeat:no-repeat;
+    mast-position:right center;
+}
 .law .project_visual_wrap .project_visual { }
 .hwasung .project_visual_wrap .project_visual { }
 .major .project_visual_wrap .project_visual { }
 .signal .project_visual_wrap .project_visual {
-    background-image:linear-gradient( 135deg, #bcd2ff 0%, #92aafa 35%, #6883d0 60%, #3e5fa7 80%, #043d80 100% ),
-                    url('../img/portfolio/background.png');
+    background:linear-gradient( 135deg, #bcd2ff 0%, #92aafa 35%, #6883d0 60%, #3e5fa7 80%, #043d80 100% );
 }
 .weather .project_visual_wrap .project_visual { }
 
