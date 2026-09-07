@@ -160,20 +160,12 @@ html, body {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:hover {
+.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):hover {
     box-shadow: none;
     transform: translate(0px, 2.2px);
 }
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:active {
+.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):active {
     transform: scale(0.96) translate(0px, 3.2px);
-}
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable {
-    background:#a6a6a6;
-    cursor:not-allowed;
-}
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable:hover {
-    transform:none;
-    box-shadow: 0 20px 30px -7px;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable:active {
     transform:none;
