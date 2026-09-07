@@ -80,7 +80,7 @@ html, body {
 
 
 .project_visual_wrap .project_visual .project_visual_info_wrap  {
-    height:70vh;
+    height:65vh;
     display:flex;
     justify-content:space-around;
 }
