@@ -167,7 +167,7 @@ html, body {
     transform: scale(0.96) translate(0px, 3.2px);
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable {
-    background:linear-gradient( to right,#a6a6a6,#474747);
+    background:#a6a6a6;
     cursor:not-allowed;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable .link_svg {
