@@ -85,7 +85,7 @@ html, body {
 
     background-color:#043d80;
     z-index:-1;
-    opacity:0.25;
+    opacity:0.1;
 }
 .law .project_visual_wrap .project_visual { }
 .hwasung .project_visual_wrap .project_visual { }
@@ -445,9 +445,6 @@ html, body {
         padding-left:40px;
         padding-right:40px; 
     }
-    .project_visual { 
-        height:clamp(765px, 85vh, 900px);
-    }
 
     .project_preview_pc_wrap .project_preview {  
         --translateY:180px;
@@ -477,7 +474,7 @@ html, body {
 
 @media screen and (max-width:1440px) {
     .project_visual { 
-        height:clamp(640px, 80vh, 820px);
+       
     }
 
     /* project_info */
@@ -498,8 +495,7 @@ html, body {
         border-radius:0 0 80px 80px;
     }
     .project_visual {
-        height:clamp(600px, 75vh, 820px);
-    }    
+    }
     .project_info { 
         padding-top:120px;
         padding-bottom:120px;
@@ -607,7 +603,7 @@ html, body {
         border-radius:0 0 60px 60px;
     }
     .project_visual { 
-        height:clamp(480px, 70vh, 538px);
+        
     }
     .project_info  {
         padding-top:100px;
@@ -727,7 +723,7 @@ html, body {
         border-radius:0 0 60px 60px;
     } */
     .project_visual { 
-            height:clamp(380px, 50vh, 460px);
+        
     }
     .project_info {
         padding-top:80px;
@@ -835,7 +831,7 @@ html, body {
         border-radius:0 0 40px 40px;
     }
     .project_visual { 
-        height:clamp(280px, 60vh, 380px);
+    
     }
     .project_info {
         padding-top:60px;
