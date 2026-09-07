@@ -437,7 +437,15 @@ html, body {
         padding-right:40px; 
     }
     .project_visual { 
-    
+        
+    }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
+        width:90%;
+    }
+
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li {
+        padding-right:18px;
+        margin-right:18px;
     }
 }
 @media screen and (max-width:1600px) {
