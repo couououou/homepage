@@ -63,7 +63,9 @@ html, body {
     background-color: rgba(42, 77, 118, 0.5); */
 }
 
-.project_visual_wrap { }
+.project_visual_wrap { 
+    transition:all 0.3s ease-in-out;
+}
 .project_visual_wrap .project_visual {
     display:flex;
     align-items:center;
