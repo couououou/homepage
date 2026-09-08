@@ -569,14 +569,14 @@ html, body {
         margin-bottom:16px;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title { 
-        font-size:max(18px, 1.3vw) ; 
+        font-size:max(14px, 1.3vw) ; 
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title h2 { 
        font-size:max(36px, 4.1vw) ; 
         width:100%;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul { 
-        font-size:max(18px, 1.3vw) ; 
+        font-size:max(14px, 1.3vw) ; 
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li {
         padding-right:16px;
