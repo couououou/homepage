@@ -92,7 +92,9 @@ html, body {
 .law .project_visual_wrap .project_visual {
     background:linear-gradient( 135deg, #b9d4ff 0%, #8fabe9 35%, #6684bf 60%, #3d5f97 80%, #0b3c70 100% );
 }
-.hwasung .project_visual_wrap .project_visual { }
+.hwasung .project_visual_wrap .project_visual {
+    background:linear-gradient( 135deg, #FFD1D3 0%, #F59A9E 35%, #E85B62 60%, #B82F36 80%, #ED1B24 100% );
+}
 .major .project_visual_wrap .project_visual { 
     background:linear-gradient( 135deg, #bcdaff 0%, #97b4e4 35%, #7290be 60%, #4e6e99 80%, #2a4d76 100% );
 }
