@@ -833,6 +833,9 @@ html, body {
         aspect-ratio: 1 / 1;
         border-radius: 60px;
     }
+    .project_visual_wrap .project_visual .project_visual_info_wrap {
+        height:auto;
+    }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text { 
         display:none;
     }
