@@ -89,9 +89,13 @@ html, body {
     z-index:-1;
     opacity:0.1;
 }
-.law .project_visual_wrap .project_visual { }
+.law .project_visual_wrap .project_visual {
+    background:linear-gradient( 135deg, #b9d4ff 0%, #8fabe9 35%, #6684bf 60%, #3d5f97 80%, #0b3c70 100% );
+}
 .hwasung .project_visual_wrap .project_visual { }
-.major .project_visual_wrap .project_visual { }
+.major .project_visual_wrap .project_visual { 
+    background:linear-gradient( 135deg, #bcdaff 0%, #97b4e4 35%, #7290be 60%, #4e6e99 80%, #2a4d76 100% );
+}
 .signal .project_visual_wrap .project_visual {
     background:linear-gradient( 135deg, #bcd2ff 0%, #92aafa 35%, #6883d0 60%, #3e5fa7 80%, #043d80 100% );
 }
