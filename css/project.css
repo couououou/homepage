@@ -476,6 +476,9 @@ html, body {
         padding-right:40px; 
     }
 
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
+        gap:6%;
+    }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title {
         margin-bottom:20px;
     }
