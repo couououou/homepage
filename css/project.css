@@ -565,8 +565,12 @@ html, body {
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info { 
         gap:6%; 
     }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text {
+        align-items:center;
+    }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title {
         margin-bottom:16px;
+        text-align:center;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title { 
         font-size:max(14px, 1.3vw) ; 
