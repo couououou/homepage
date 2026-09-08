@@ -84,11 +84,25 @@ html, body {
     mask-size:cover;
     mask-repeat:no-repeat;
     mask-position:right center;
-
-    background-color:#043d80;
     z-index:-1;
     opacity:0.1;
 }
+.law .project_visual_wrap .project_visual::after { 
+    background-color:#0b3c70;
+}
+.hwasung .project_visual_wrap .project_visual::after { 
+    background-color:#ED1B24;
+}
+.major .project_visual_wrap .project_visual::after { 
+    background-color:#2a4d76;
+}
+.signal .project_visual_wrap .project_visual::after  {
+    background-color:#043d80;
+}
+.weather .project_visual_wrap .project_visual::after { 
+    background-color:#043d80; //수정
+}
+
 .law .project_visual_wrap .project_visual {
     background:linear-gradient( 135deg, #b9d4ff 0%, #8fabe9 35%, #6684bf 60%, #3d5f97 80%, #0b3c70 100% );
 }
