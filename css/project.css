@@ -569,18 +569,18 @@ html, body {
         align-items:center;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title {
-        margin-bottom:16px;
+        margin-bottom:24px;
         text-align:center;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title { 
-        font-size:max(14px, 1.3vw) ; 
+        font-size:18px; 
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title h2 { 
-       font-size:max(36px, 4.1vw) ; 
+       font-size:60px; 
         width:100%;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul { 
-        font-size:max(14px, 1.3vw) ; 
+        font-size:17px; 
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul li {
         padding-right:16px;
@@ -591,7 +591,7 @@ html, body {
         height:3px;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {
-        margin-top:32px;
+        margin-top:40px;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
         width:100%;
@@ -828,6 +828,16 @@ html, body {
     .project_visual { 
         
     }
+    .project_visual_wrap {
+        margin: 16px 16px 0 16px;
+        aspect-ratio: 1 / 1;
+        border-radius: 60px;
+    }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text { 
+        display:none;
+    }
+
+
     .project_info {
         padding-top:80px;
         padding-bottom:80px;
