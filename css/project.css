@@ -565,14 +565,21 @@ html, body {
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info { 
         gap:6%; 
     }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title {
+        margin-bottom:16px;
+    }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title { 
-        font-size:16px; 
+        /* font-size:16px;  */
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title h2 { 
-        font-size:36px;
+        /* font-size:36px; */
+        width:100%;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul { 
-        font-size:16px; 
+        /* font-size:16px;  */
+    }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {
+        margin-top:32px;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
         width:100%;
