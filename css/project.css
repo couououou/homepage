@@ -828,7 +828,7 @@ html, body {
         border-radius:0 0 60px 60px;
     } */
     .project_visual { 
-        
+        height:100%;
     }
     .project_visual_wrap {
         margin: 16px 16px 0 16px;
