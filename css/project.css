@@ -535,7 +535,7 @@ html, body {
        
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
-        gap:10%;
+        gap:8%;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
         width:90%;
@@ -569,14 +569,14 @@ html, body {
         margin-bottom:16px;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title p.sub_title { 
-        /* font-size:16px;  */
+        font-size:max(18px, 1.3vw) ; 
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_title h2 { 
-        /* font-size:36px; */
+       font-size:max(36px, 4.1vw) ; 
         width:100%;
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_subInfo ul { 
-        /* font-size:16px;  */
+        font-size:max(18px, 1.3vw) ; 
     }
     .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link {
         margin-top:32px;
