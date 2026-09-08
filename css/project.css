@@ -531,7 +531,15 @@ html, body {
     .project_visual { 
        
     }
-
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
+        gap:10%;
+    }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
+        width:90%;
+    }
+    .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img img {
+        transform: scale(1.05) translateX(-2.5%);
+    }
     /* project_info */
     .project_info_right_2nd .project_info_box .color_box_wrap .color_box {
         width:calc(33.33% - 9.3334px);
