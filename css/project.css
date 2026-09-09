@@ -84,7 +84,9 @@ html, body {
 .signal .project_visual_wrap .project_visual {
     background:linear-gradient( 135deg, #bcd2ff 0%, #92aafa 35%, #6883d0 60%, #3e5fa7 80%, #043d80 100% );
 }
-.weather .project_visual_wrap .project_visual { }
+.weather .project_visual_wrap .project_visual {
+    background: linear-gradient( 135deg, #E6F0FF 0%, #A5BFFF 35%, #6C63FF 60%, #4B3C8A 80%, #1C1A3A 100% );
+}
 
 
 
@@ -202,6 +204,21 @@ html, body {
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img img {
     width:100%;
+}
+
+.weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img img {
+    animation:img_moving 3s infinite normal ease-in-out; 
+}
+@keyframes img_moving {
+    0% {
+        transform:translateY(0px);
+    }
+    50% {
+        transform:translateY(20px);
+    }
+    100% {
+        transform:translateY(0px);
+    }
 }
 /* //visual */
 
@@ -1061,62 +1078,7 @@ html, body {
 .project_visual_wrap {
 
 }
-.weather .project_visual {
-    background: 
-        /* radial-gradient(circle at 20% 30%, rgba(255,255,255,0.15), transparent 40%), */
-        linear-gradient( 135deg, #E6F0FF 0%, #A5BFFF 35%, #6C63FF 60%, #4B3C8A 80%, #1C1A3A 100% );
-    display:flex;
-    align-items:flex-end;
-    transition:border-radius 3s;
-}
-.weather .project_visual .project_visual_content {
-    height:100%;
-    display:flex;
-    align-items:end;
-    margin-bottom:160px;
-}
-.weather .project_visual .project_info {
-    padding:0;
-}
-.weather .project_visual .project_info .project_info_content { 
-    display:flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-.weather .project_visual .project_info .project_info_content .project_info_text_wrap {
-    display:block;
-    width:65%;
-}
 
-.weather .project_visual .project_info .project_info_content .project_info_text {
-}
-.weather .project_visual .project_info .project_info_content .project_visual_img {
-    width:30%;
-    animation:img_moving 3s infinite normal ease-in-out; 
-}
-.weather .project_visual .project_info .project_info_content .project_visual_img img {
-    width:100%;
-    position:relative;
-    object-fit:contain;
-    left:auto;
-    top:auto;
-    transform:none;
-}
-@keyframes img_moving {
-    0% {
-        transform:translateY(0px);
-    }
-    50% {
-        transform:translateY(20px);
-    }
-    100% {
-        transform:translateY(0px);
-    }
-}
-
-.weather .project_info.project_info_mobile {
-    display:none;
-}
 
     /* detail */
 .weather .project_detail_wrap {
