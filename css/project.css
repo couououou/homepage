@@ -1337,7 +1337,7 @@ html, body {
     }
     .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
         width:100%;
-        align-items:center;
+        justify-content:center;
     }
     @keyframes img_moving {
         0% {
