@@ -1329,6 +1329,16 @@ html, body {
         font-size:16px;
     }
     
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
+        flex-direction:column;
+    }
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text {
+        width:100%;
+    }
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
+        width:100%;
+        align-items:center;
+    }
     @keyframes img_moving {
         0% {
             transform:translateY(0px);
