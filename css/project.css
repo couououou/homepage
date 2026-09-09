@@ -1475,6 +1475,16 @@ html, body {
         font-size:15px;
     }
 
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap {
+        height:auto;
+    }
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
+        width:70%;
+    }
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img img {
+        height: auto;
+        width: 100%;
+    }
     .weather .project_detail_wrap {
         padding-top:40px;
         padding-bottom:100px;
