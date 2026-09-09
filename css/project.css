@@ -1398,7 +1398,7 @@ html, body {
 }
 
 @media screen and (max-width:1024px) {
-        .weather .project_detail_wrap {
+    .weather .project_detail_wrap {
         padding-top:140px;
         padding-bottom:140px;
     }
@@ -1479,31 +1479,7 @@ html, body {
         padding-top:40px;
         padding-bottom:100px;
     }
-    .weather .project_visual .project_info .project_info_content .project_info_text_wrap.project_info_pc {
-        display:none;
-    }
 
-    .weather .project_visual_wrap {
-        margin:16px 16px 0 16px;
-        aspect-ratio: 1/1;
-        border-radius:60px;
-    }
-    .weather .project_visual_wrap .project_visual {
-        height:100%;
-        display:flex;
-        align-items:center;
-        justify-self:center;
-        padding:0;
-    }
-    .weather .project_visual .project_info .project_info_content {
-        margin-bottom:0;
-        align-items:center;
-        justify-content: center;
-    }
-    .weather .project_visual .project_info .project_info_content .project_visual_img {
-        width:60%;
-        margin-top:0;
-    }
     @keyframes img_moving {
         0% {
             transform:translateY(0px);
