@@ -31,37 +31,6 @@ html, body {
     position:relative;
     z-index:1;
 }
-.law .project_visual {
-    /* 8FABE9 */
-    /* background:linear-gradient(135deg, #8FABE9 10%, transparent),
-        repeating-linear-gradient(45deg, rgba(143, 171, 233, 0.8) 0%, rgba(180, 200, 245, 0.5) 5%, transparent 5%, transparent 10% ),
-        repeating-linear-gradient(-45deg, rgba(143, 171, 233, 0.5) 0%, rgba(200, 215, 255, 0.4) 5%, transparent 5%, transparent 10% );
-    background-color: rgba(143, 171, 233, 0.5); */
-    /* 0B3C70 */
-    background:linear-gradient(135deg, #0B3C70 10%, transparent),
-        repeating-linear-gradient(45deg, rgba(11, 60, 112, 0.9) 0%, rgba(20, 80, 150, 0.5) 5%, transparent 5%, transparent 10% ),
-        repeating-linear-gradient(-45deg, rgba(11, 60, 112, 0.5) 0%, rgba(15, 70, 130, 0.4) 5%, transparent 5%, transparent 10% );
-    background-color: rgba(11, 60, 112, 0.3);
-}
-.hwasung .project_visual {
-    /* f28a92 */
-    background: linear-gradient(135deg, rgb(242, 138, 146) 10%, transparent),
-          repeating-linear-gradient(45deg, rgba(255, 170, 175, 0.8) 0%, rgba(255, 190, 195, 0.5) 5%, transparent 5%, transparent 10% ),
-          repeating-linear-gradient(-45deg, rgba(255, 180, 185, 0.5) 0%, rgba(255, 200, 205, 0.4) 5%, transparent 5%, transparent 10% );
-    background-color: rgba(255, 170, 175, 0.3);
-}
-.major .project_visual {
-    /* 85A9D6 */
-    background: linear-gradient(135deg, #85A9D6 10%, transparent),
-        repeating-linear-gradient(45deg, rgba(133, 169, 214, 0.85) 0%, rgba(170, 200, 240, 0.55) 5%, transparent 5%, transparent 10% ),
-        repeating-linear-gradient(-45deg, rgba(133, 169, 214, 0.55) 0%, rgba(190, 215, 250, 0.45) 5%, transparent 5%, transparent 10%  );
-    background-color: rgba(133, 169, 214, 0.3);
-    /* 2A4D76 */
-    /* background: linear-gradient(135deg, #2A4D76 10%, transparent),
-        repeating-linear-gradient(45deg, rgba(42, 77, 118, 0.9) 0%, rgba(60, 100, 150, 0.5) 5%, transparent 5%, transparent 10% ),
-        repeating-linear-gradient(-45deg, rgba(42, 77, 118, 0.5) 0%, rgba(50, 90, 140, 0.4) 5%, transparent 5%, transparent 10% );
-    background-color: rgba(42, 77, 118, 0.5); */
-}
 
 .project_visual_wrap { 
     transition:all 0.3s ease-in-out;
