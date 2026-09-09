@@ -1079,8 +1079,15 @@ html, body {
 .project_visual_wrap {
 
 }
+.weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
+    width:70%;
+}
+.waether .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text {
+    width:50%;
+}
 .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
     height:100%;
+    width:50%;
 }
 .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img img {
     width:auto;
