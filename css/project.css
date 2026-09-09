@@ -69,7 +69,8 @@ html, body {
     background-color:#043d80;
 }
 .weather .project_visual_wrap .project_visual::after { 
-    background-color:#043d80; //수정
+    background-color:#043d80; 
+    /* 수정 */
 }
 
 .law .project_visual_wrap .project_visual {
