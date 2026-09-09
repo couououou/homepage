@@ -1336,8 +1336,11 @@ html, body {
         width:100%;
     }
     .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
-        width:100%;
+        width:65%;
         justify-content:center;
+    }
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_img {
+        height:100%;
     }
     @keyframes img_moving {
         0% {
