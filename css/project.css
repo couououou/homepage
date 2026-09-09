@@ -1281,9 +1281,11 @@ html, body {
 }
 
 @media screen and (max-width:1920px) {
-    .weather .project_visual .project_visual_content {
-        margin-bottom:120px;
+    .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info {
+        width:90%;
+        flex-direction:row;
     }
+    
 }
 @media screen and (max-width:1600px) {
     .weather .project_detail_wrap .project_detail .detail_box_contain.detail_box_color {
