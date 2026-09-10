@@ -1031,8 +1031,12 @@ html, body {
         gap:12px;
     }
     .project_info .project_info_title .title_link a.linkTag {
-        padding:12px;
-        border-radius:10px;
+        padding:10px;
+        border-radius:8px;
+    }
+    .project_info .project_info_title .title_link a.linkTag svg {
+        width:14px;
+        height:14px;
     }
     .project_info .project_info_title .title_link a.linkTag span {
         display:none;
