@@ -902,7 +902,7 @@ html, body {
         color:#25252C;
     }
     .weather .project_info .project_info_title .title_link a.linkTag svg {
-        color:#25252C;
+        fill:#25252C;
     }
     .project_info .project_info_title .title_link a.linkTag svg {
         fill:#fff;
