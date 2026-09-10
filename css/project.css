@@ -1444,7 +1444,7 @@ html, body {
         }
     }
     .weather .project_detail_wrap {
-        padding-top:160px;
+        padding-top:40px;
         padding-bottom:160px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
@@ -1488,7 +1488,7 @@ html, body {
 
 @media screen and (max-width:1024px) {
     .weather .project_detail_wrap {
-        padding-top:140px;
+        padding-top:20px;
         padding-bottom:140px;
     }
     .weather .project_detail_wrap .project_detail .detail_box_contain .detail_box .img_box {
