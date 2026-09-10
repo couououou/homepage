@@ -173,10 +173,13 @@ html, body {
     font-size:15px;
     color: #fff;
     font-weight: 500;
-    background: linear-gradient( to right,#8be3fc,#576bff);
+    background:#a6a6a6;
     box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+}
+.waether .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
+    background: linear-gradient( to right,#FFF3A6, #FFE54F, #FFE02F);
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):hover {
     box-shadow: none;
@@ -184,9 +187,6 @@ html, body {
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):active {
     transform: scale(0.96) translate(0px, 3.2px);
-}
-.project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a.disable {
-    background:#a6a6a6;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a svg {
     width:18px;
