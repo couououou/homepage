@@ -185,6 +185,9 @@ html, body {
 .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a svg {
     fill:#25252C;
 }
+.hwasung .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
+    background: linear-gradient( to right,#c4ddf2, #7e95a9, #3d5466);
+}
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):hover {
     box-shadow: none;
     transform: translate(0px, 2.2px);
