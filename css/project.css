@@ -180,7 +180,7 @@ html, body {
 }
 .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
     background: linear-gradient( to right,#FFF3A6, #FFE54F, #FFE02F);
-    box-shadow: #e6ca034D 0px 13px 27px -5px, #e6ca66 0px 8px 16px -8px
+    box-shadow: #e6ca034D 0px 13px 27px -5px, #e6ca66 0px 8px 16px -8px;
     color:#25252C;
 }
 .weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a svg {
