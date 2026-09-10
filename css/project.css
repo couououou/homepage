@@ -864,15 +864,29 @@ html, body {
         animation: img_moving 3s infinite normal ease-in-out;
     }
 
+
+     /* info_common */
     .project_info {
         padding-top:80px;
         padding-bottom:80px;
     }
-
-     /* info_common */
-     .project_info .project_info_title {
+    .project_info .project_info_title {
         display:block;
     }
+    .project_info .project_info_title .title_link {
+
+    }
+    .project_info .project_info_title .title_link a.linkTag {
+
+    }
+    .project_info .project_info_title .title_link a svg {
+        
+    }
+    .project_info .project_info_title .title_link a span {
+
+    }
+
+
     .project_info .project_info_text h2 {
         font-size:32px;
     }
