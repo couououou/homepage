@@ -187,6 +187,7 @@ html, body {
 }
 .hwasung .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
     background: linear-gradient( to right,#c4ddf2, #7e95a9, #3d5466);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):hover {
     box-shadow: none;
