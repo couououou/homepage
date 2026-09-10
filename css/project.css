@@ -178,11 +178,11 @@ html, body {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.waether .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
+.weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a {
     background: linear-gradient( to right,#FFF3A6, #FFE54F, #FFE02F);
     color:#25252C;
 }
-.waether .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a svg {
+.weather .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a svg {
     fill:#25252C;
 }
 .project_visual_wrap .project_visual .project_visual_info_wrap .project_visual_info .visual_text .visual_link a:not(.disable):hover {
