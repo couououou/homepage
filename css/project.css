@@ -873,6 +873,7 @@ html, body {
     .project_info .project_info_title {
         display:flex;
         justify-content:space-between;
+        align-items:center;
     }
     .project_info .project_info_title .title_link {
 
@@ -882,8 +883,9 @@ html, body {
         gap:6px;
         align-items:center;
         justify-content:center;
-        padding:10px 20px;
+        padding:12px 24px;
         font-size:14px;
+        border-radius:99999px;
         color:#fff;
         font-weight:500;
         background:#a6a6a6;
@@ -896,8 +898,8 @@ html, body {
     }
     .project_info .project_info_title .title_link a.linkTag svg {
         fill:#fff;
-        width:14px;
-        height:14px;
+        width:16px;
+        height:16px;
     }
     .project_info .project_info_title .title_link a.linkTag span {
         letter-spacing:2%;
