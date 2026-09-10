@@ -303,6 +303,10 @@ html, body {
 .project_info_text_wrap .project_info_left {
     width:calc(55% - 40px); margin-right:40px;
 }
+.weather .project_info_text_wrap .project_info_left {
+    width:100%;
+    margin-right:0;
+}
 .project_info_text_wrap .project_info_left h5 { }
 .project_info_text_wrap .project_info_left p { 
     /* word-break:keep-all; */
