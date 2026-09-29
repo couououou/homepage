@@ -878,14 +878,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     font-size:10px;
     color:#9C3C63;
 }
-.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
+/* .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
     position: absolute;
     bottom: 0;
     right: 32px;
     height: 80%;
     opacity: 0.4;
     display: flex;
-}
+} */
 /* //about */
 
 /* project */
@@ -1185,9 +1185,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:28px;
     }
-    .aboutBoxs .aboutBoxWrap .aboutIcon {
+    /* .aboutBoxs .aboutBoxWrap .aboutIcon {
         top:14px;
-    }
+    } */
     .aboutBoxs .aboutBoxWrap .aboutBox {
         padding:28px 28px 36px;
         border-radius:20px;
@@ -1287,11 +1287,11 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap { 
         gap:48px;
     }
-    .aboutBoxs .aboutBoxWrap .aboutIcon {
+    /* .aboutBoxs .aboutBoxWrap .aboutIcon {
         width:48px;
         height:48px;
         top:12px;
-    }
+    } */
     /* .aboutBoxs .aboutBoxWrap .aboutBox { 
         padding:24px 24px 32px;
         border-radius:22px;
@@ -1352,9 +1352,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap {
         grid-template-columns: 1fr;
     }
-    .aboutBoxs .aboutBoxWrap .aboutIcon {
+    /* .aboutBoxs .aboutBoxWrap .aboutIcon {
         left:0;
-    }
+    } */
     .aboutBoxs .aboutBoxWrap .aboutBox {
         width: calc(100% - 5% - 20px);
         justify-self: end;
@@ -1535,9 +1535,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs::after {
         left:12%;
     }
-    .aboutBoxs .aboutBoxWrap .aboutIcon {
+    /* .aboutBoxs .aboutBoxWrap .aboutIcon {
         display:none;
-    }
+    } */
     .aboutBoxs .aboutBoxWrap .aboutBox { 
         border-radius:16px;
         width:100%;
