@@ -878,6 +878,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     font-size:10px;
     color:#9C3C63;
 }
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo {
+    background:green;
+}
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
     position: absolute;
     background:red;
