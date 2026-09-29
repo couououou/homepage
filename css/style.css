@@ -788,8 +788,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     background:#fff;
     width:16px;
     height:16px;
-    top:20px;
+    top:8px;
     z-index:11;
+    border-radius:50%;
 }
 /* .aboutBoxs .aboutBoxWrap .aboutIcon img { */
 .aboutBoxs .aboutBoxWrap .aboutBox {
