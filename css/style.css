@@ -769,7 +769,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:absolute;
     width:32px;
     height:32px;
-    top:16px;
+    top:28px;
     left:50%;
     transform:translateX(-50%);
     background:#90F2FF;
@@ -778,6 +778,16 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     display:flex;
     align-items:center;
     justify-content:center;
+}
+.aboutBoxs .aboutBoxWrap .aboutPoint::before {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    background:#fff;
+    width:16px;
+    height:16px;
+    top:20px;
+    z-index:11;
 }
 /* .aboutBoxs .aboutBoxWrap .aboutIcon img { */
 .aboutBoxs .aboutBoxWrap .aboutBox {
