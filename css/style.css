@@ -806,6 +806,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     font-weight:500;
     display:flex;
     margin-left:20px;
+    z-index:2;
+    position:relative;
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo ul li {
     margin-bottom:8px;
@@ -886,6 +888,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     height:180px;
     opacity: 0.4;
     display: flex;
+    z-index:1;
 }
 /* //about */
 
