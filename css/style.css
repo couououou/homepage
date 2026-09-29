@@ -764,7 +764,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position: relative;
     z-index:10;
 }
-.aboutBoxs .aboutBoxWrap .aboutIcon {
+/* .aboutBoxs .aboutBoxWrap .aboutIcon { */
+.aboutBoxs .aboutBoxWrap .aboutPoint {
     position:absolute;
     width:60px;
     height:60px;
@@ -778,6 +779,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     align-items:center;
     justify-content:center;
 }
+/* .aboutBoxs .aboutBoxWrap .aboutIcon img { */
 .aboutBoxs .aboutBoxWrap .aboutIcon img {
     width:55%;
 }
