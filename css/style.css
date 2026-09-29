@@ -767,12 +767,12 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 /* .aboutBoxs .aboutBoxWrap .aboutIcon { */
 .aboutBoxs .aboutBoxWrap .aboutPoint {
     position:absolute;
-    width:32px;
-    height:32px;
+    width:28px;
+    height:28px;
     top:28px;
     left:50%;
     transform:translateX(-50%);
-    background:#90F2FF;
+    background:#8b5cf6;
     border-radius:50%;
     z-index:10;
     display:flex;
@@ -786,9 +786,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     left:50%;
     transform:translateX(-50%);
     background:#fff;
-    width:16px;
-    height:16px;
-    top:8px;
+    width:20px;
+    height:20px;
+    top:4px;
     z-index:11;
     border-radius:50%;
 }
