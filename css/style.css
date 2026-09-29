@@ -878,14 +878,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     font-size:10px;
     color:#9C3C63;
 }
-/* .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
     position: absolute;
     bottom: 0;
     right: 32px;
     height: 80%;
     opacity: 0.4;
     display: flex;
-} */
+}
 /* //about */
 
 /* project */
