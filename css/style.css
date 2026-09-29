@@ -880,7 +880,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
     position: absolute;
-    bottom: 0;
+    bottom: 19px;
     right: 32px;
     height: 80%;
     opacity: 0.4;
