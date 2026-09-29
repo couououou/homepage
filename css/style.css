@@ -1355,9 +1355,9 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap {
         grid-template-columns: 1fr;
     }
-    /* .aboutBoxs .aboutBoxWrap .aboutIcon {
+    .aboutBoxs .aboutBoxWrap .aboutPoint {
         left:0;
-    } */
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox {
         width: calc(100% - 5% - 20px);
         justify-self: end;
@@ -1431,7 +1431,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         height:14px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
-        padding:24px 24px 32px;
+        padding:24px 24px 80px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
         font-size:20px;
