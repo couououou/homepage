@@ -1544,13 +1544,13 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs::after {
         left:12%;
     }
-    /* .aboutBoxs .aboutBoxWrap .aboutIcon {
+    .aboutBoxs .aboutBoxWrap .aboutPoint {
         display:none;
-    } */
+    }
     .aboutBoxs .aboutBoxWrap .aboutBox { 
         border-radius:16px;
         width:100%;
-        padding: 20px 20px 28px;
+        padding: 20px 20px 52px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle { 
         font-size:18px;
@@ -1573,6 +1573,10 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li img { width:50px;}
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot { margin-top:0; }
 
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutIcon {
+        right:20px;
+        height:120px;
+    }
     /* project */
     .project {
         padding:60px 0;
