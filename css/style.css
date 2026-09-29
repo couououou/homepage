@@ -780,9 +780,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     justify-content:center;
 }
 /* .aboutBoxs .aboutBoxWrap .aboutIcon img { */
-.aboutBoxs .aboutBoxWrap .aboutIcon img {
-    width:55%;
-}
 .aboutBoxs .aboutBoxWrap .aboutBox {
     width:95%;
     padding:32px 32px 40px;
@@ -880,6 +877,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo.skill ul li .skillDot p {
     font-size:10px;
     color:#9C3C63;
+}
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+    height: 80%;
+    opacity: 0.4;
+    display: flex;
 }
 /* //about */
 
