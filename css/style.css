@@ -790,6 +790,15 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position:relative;
     z-index:5;
 }
+.aboutBoxs .aboutBoxWrap .aboutBox .aboutIcon {
+    position: absolute;
+    background:red;
+    bottom: 19px;
+    right: 32px;
+    height: 80%;
+    opacity: 0.4;
+    display: flex;
+}
 .aboutBoxs .aboutBoxWrap .aboutBox.aboutBox2 { 
     grid-column:2;
     justify-self:end;
@@ -880,15 +889,6 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 }
 .aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo {
     background:green;
-}
-.aboutBoxs .aboutBoxWrap .aboutBox .aboutInfo .aboutIcon {
-    position: absolute;
-    background:red;
-    bottom: 19px;
-    right: 32px;
-    height: 80%;
-    opacity: 0.4;
-    display: flex;
 }
 /* //about */
 
