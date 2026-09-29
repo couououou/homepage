@@ -1464,7 +1464,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
         font-size:6px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutIcon {
-
+        height:160px;
+        right:24px;
     }
     /* projcet */
     .project {
