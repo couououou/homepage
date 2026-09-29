@@ -767,8 +767,8 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
 /* .aboutBoxs .aboutBoxWrap .aboutIcon { */
 .aboutBoxs .aboutBoxWrap .aboutPoint {
     position:absolute;
-    width:60px;
-    height:60px;
+    width:32px;
+    height:32px;
     top:16px;
     left:50%;
     transform:translateX(-50%);
