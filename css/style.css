@@ -1186,14 +1186,14 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     .title h2 .titleBrace svg {
         width:28px;
     }
-    .aboutBoxs .aboutBoxWrap .aboutIcon {
-        height:160px;
-        right:28px;  
-        bottom:18px;
-    }
     .aboutBoxs .aboutBoxWrap .aboutBox {
         padding:28px 28px 100px;
         border-radius:20px;
+    }
+    .aboutBoxs .aboutBoxWrap .aboutBox .aboutIcon {
+        height:160px;
+        right:28px;  
+        bottom:18px;
     }
     .aboutBoxs .aboutBoxWrap .aboutBox .aboutTitle {
         margin-bottom:10px;
