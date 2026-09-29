@@ -883,6 +883,7 @@ nav .navBox .mobileNavContent button .mobileNavLine.mobileNavLine3.on {
     position: absolute;
     bottom: 24px;
     right: 32px;
+    height:180px;
     opacity: 0.4;
     display: flex;
 }
